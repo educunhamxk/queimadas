@@ -270,7 +270,7 @@ st.markdown("Por fim, vamos projetar como será o mês de Maio, já que ainda n�
 
 df_projecao = pd.read_csv("dados_queimadas_previsao.csv")
 
-
+st.write(type(comparativo_ano))
 #botão projetar
 if st.button("Projetar"):
 #     st.balloons():
