@@ -1,0 +1,1618 @@
+﻿date;class;focuses;uf
+2023/01;Desmatamento Consolidado;2;ACRE
+2023/01;Desmatamento Consolidado;1;AMAPÁ
+2023/01;Desmatamento Consolidado;9;AMAZONAS
+2023/01;Desmatamento Consolidado;64;MARANHÃO
+2023/01;Desmatamento Consolidado;94;MATO GROSSO
+2023/01;Desmatamento Consolidado;148;PARÁ
+2023/01;Desmatamento Consolidado;15;RONDÔNIA
+2023/01;Desmatamento Consolidado;54;RORAIMA
+2023/01;Desmatamento Consolidado;3;TOCANTINS
+2023/01;Desmatamento Recente;2;ACRE
+2023/01;Desmatamento Recente;22;AMAZONAS
+2023/01;Desmatamento Recente;3;MARANHÃO
+2023/01;Desmatamento Recente;29;MATO GROSSO
+2023/01;Desmatamento Recente;31;PARÁ
+2023/01;Desmatamento Recente;15;RONDÔNIA
+2023/01;Desmatamento Recente;25;RORAIMA
+2023/01;Desmatamento Recente;1;TOCANTINS
+2023/01;Floresta;5;ACRE
+2023/01;Floresta;2;AMAPÁ
+2023/01;Floresta;25;AMAZONAS
+2023/01;Floresta;7;MARANHÃO
+2023/01;Floresta;19;MATO GROSSO
+2023/01;Floresta;57;PARÁ
+2023/01;Floresta;8;RONDÔNIA
+2023/01;Floresta;108;RORAIMA
+2023/01;Floresta;2;TOCANTINS
+2023/01;Outros;5;AMAPÁ
+2023/01;Outros;3;AMAZONAS
+2023/01;Outros;7;MARANHÃO
+2023/01;Outros;15;MATO GROSSO
+2023/01;Outros;17;PARÁ
+2023/01;Outros;3;RONDÔNIA
+2023/01;Outros;118;RORAIMA
+2023/01;Vegetacao Secundaria;1;ACRE
+2023/01;Vegetacao Secundaria;11;AMAZONAS
+2023/01;Vegetacao Secundaria;24;MARANHÃO
+2023/01;Vegetacao Secundaria;8;MATO GROSSO
+2023/01;Vegetacao Secundaria;77;PARÁ
+2023/01;Vegetacao Secundaria;3;RONDÔNIA
+2023/01;Vegetacao Secundaria;20;RORAIMA
+2023/01;Vegetacao Secundaria;2;TOCANTINS
+2023/02;Desmatamento Consolidado;1;ACRE
+2023/02;Desmatamento Consolidado;3;AMAZONAS
+2023/02;Desmatamento Consolidado;5;MARANHÃO
+2023/02;Desmatamento Consolidado;270;MATO GROSSO
+2023/02;Desmatamento Consolidado;49;PARÁ
+2023/02;Desmatamento Consolidado;13;RONDÔNIA
+2023/02;Desmatamento Consolidado;9;RORAIMA
+2023/02;Desmatamento Consolidado;4;TOCANTINS
+2023/02;Desmatamento Recente;11;AMAZONAS
+2023/02;Desmatamento Recente;1;MARANHÃO
+2023/02;Desmatamento Recente;39;MATO GROSSO
+2023/02;Desmatamento Recente;8;PARÁ
+2023/02;Desmatamento Recente;8;RONDÔNIA
+2023/02;Desmatamento Recente;5;RORAIMA
+2023/02;Desmatamento Recente;1;TOCANTINS
+2023/02;Floresta;2;AMAZONAS
+2023/02;Floresta;1;MARANHÃO
+2023/02;Floresta;26;MATO GROSSO
+2023/02;Floresta;16;PARÁ
+2023/02;Floresta;4;RONDÔNIA
+2023/02;Floresta;27;RORAIMA
+2023/02;Floresta;4;TOCANTINS
+2023/02;Outros;6;AMAZONAS
+2023/02;Outros;12;MATO GROSSO
+2023/02;Outros;5;PARÁ
+2023/02;Outros;88;RORAIMA
+2023/02;Vegetacao Secundaria;1;MARANHÃO
+2023/02;Vegetacao Secundaria;7;MATO GROSSO
+2023/02;Vegetacao Secundaria;9;PARÁ
+2023/02;Vegetacao Secundaria;5;RORAIMA
+2023/02;Vegetacao Secundaria;1;TOCANTINS
+2023/03;Desmatamento Consolidado;5;AMAZONAS
+2023/03;Desmatamento Consolidado;5;MARANHÃO
+2023/03;Desmatamento Consolidado;250;MATO GROSSO
+2023/03;Desmatamento Consolidado;59;PARÁ
+2023/03;Desmatamento Consolidado;25;RONDÔNIA
+2023/03;Desmatamento Consolidado;62;RORAIMA
+2023/03;Desmatamento Consolidado;2;TOCANTINS
+2023/03;Desmatamento Recente;1;MARANHÃO
+2023/03;Desmatamento Recente;18;MATO GROSSO
+2023/03;Desmatamento Recente;2;PARÁ
+2023/03;Desmatamento Recente;4;RONDÔNIA
+2023/03;Desmatamento Recente;35;RORAIMA
+2023/03;Floresta;1;AMAPÁ
+2023/03;Floresta;15;AMAZONAS
+2023/03;Floresta;2;MARANHÃO
+2023/03;Floresta;45;MATO GROSSO
+2023/03;Floresta;19;PARÁ
+2023/03;Floresta;6;RONDÔNIA
+2023/03;Floresta;149;RORAIMA
+2023/03;Outros;4;AMAZONAS
+2023/03;Outros;16;MATO GROSSO
+2023/03;Outros;3;PARÁ
+2023/03;Outros;2;RONDÔNIA
+2023/03;Outros;239;RORAIMA
+2023/03;Vegetacao Secundaria;4;AMAZONAS
+2023/03;Vegetacao Secundaria;3;MARANHÃO
+2023/03;Vegetacao Secundaria;11;MATO GROSSO
+2023/03;Vegetacao Secundaria;11;PARÁ
+2023/03;Vegetacao Secundaria;1;RONDÔNIA
+2023/03;Vegetacao Secundaria;20;RORAIMA
+2023/04;Desmatamento Consolidado;8;AMAZONAS
+2023/04;Desmatamento Consolidado;9;MARANHÃO
+2023/04;Desmatamento Consolidado;271;MATO GROSSO
+2023/04;Desmatamento Consolidado;37;PARÁ
+2023/04;Desmatamento Consolidado;15;RONDÔNIA
+2023/04;Desmatamento Consolidado;30;RORAIMA
+2023/04;Desmatamento Consolidado;3;TOCANTINS
+2023/04;Desmatamento Recente;1;AMAZONAS
+2023/04;Desmatamento Recente;92;MATO GROSSO
+2023/04;Desmatamento Recente;2;PARÁ
+2023/04;Desmatamento Recente;10;RONDÔNIA
+2023/04;Desmatamento Recente;23;RORAIMA
+2023/04;Floresta;6;AMAZONAS
+2023/04;Floresta;38;MATO GROSSO
+2023/04;Floresta;10;PARÁ
+2023/04;Floresta;4;RONDÔNIA
+2023/04;Floresta;68;RORAIMA
+2023/04;Floresta;1;TOCANTINS
+2023/04;Outros;1;AMAPÁ
+2023/04;Outros;2;AMAZONAS
+2023/04;Outros;15;MATO GROSSO
+2023/04;Outros;4;PARÁ
+2023/04;Outros;1;RONDÔNIA
+2023/04;Outros;79;RORAIMA
+2023/04;Vegetacao Secundaria;3;AMAZONAS
+2023/04;Vegetacao Secundaria;18;MATO GROSSO
+2023/04;Vegetacao Secundaria;5;PARÁ
+2023/04;Vegetacao Secundaria;12;RORAIMA
+2022/01;Desmatamento Consolidado;5;ACRE
+2022/01;Desmatamento Consolidado;1;AMAPÁ
+2022/01;Desmatamento Consolidado;48;AMAZONAS
+2022/01;Desmatamento Consolidado;27;MARANHÃO
+2022/01;Desmatamento Consolidado;236;MATO GROSSO
+2022/01;Desmatamento Consolidado;99;PARÁ
+2022/01;Desmatamento Consolidado;31;RONDÔNIA
+2022/01;Desmatamento Consolidado;44;RORAIMA
+2022/01;Desmatamento Recente;16;ACRE
+2022/01;Desmatamento Recente;67;AMAZONAS
+2022/01;Desmatamento Recente;3;MARANHÃO
+2022/01;Desmatamento Recente;73;MATO GROSSO
+2022/01;Desmatamento Recente;52;PARÁ
+2022/01;Desmatamento Recente;41;RONDÔNIA
+2022/01;Desmatamento Recente;89;RORAIMA
+2022/01;Floresta;1;ACRE
+2022/01;Floresta;2;AMAPÁ
+2022/01;Floresta;16;AMAZONAS
+2022/01;Floresta;1;MARANHÃO
+2022/01;Floresta;5;MATO GROSSO
+2022/01;Floresta;8;PARÁ
+2022/01;Floresta;1;RONDÔNIA
+2022/01;Floresta;40;RORAIMA
+2022/01;Outros;5;AMAPÁ
+2022/01;Outros;6;AMAZONAS
+2022/01;Outros;2;MARANHÃO
+2022/01;Outros;21;MATO GROSSO
+2022/01;Outros;7;PARÁ
+2022/01;Outros;183;RORAIMA
+2022/01;Vegetacao Secundaria;2;ACRE
+2022/01;Vegetacao Secundaria;20;AMAZONAS
+2022/01;Vegetacao Secundaria;12;MARANHÃO
+2022/01;Vegetacao Secundaria;5;MATO GROSSO
+2022/01;Vegetacao Secundaria;36;PARÁ
+2022/01;Vegetacao Secundaria;6;RONDÔNIA
+2022/01;Vegetacao Secundaria;15;RORAIMA
+2022/02;Desmatamento Consolidado;3;ACRE
+2022/02;Desmatamento Consolidado;2;AMAZONAS
+2022/02;Desmatamento Consolidado;9;MARANHÃO
+2022/02;Desmatamento Consolidado;261;MATO GROSSO
+2022/02;Desmatamento Consolidado;42;PARÁ
+2022/02;Desmatamento Consolidado;13;RONDÔNIA
+2022/02;Desmatamento Consolidado;15;RORAIMA
+2022/02;Desmatamento Consolidado;1;TOCANTINS
+2022/02;Desmatamento Recente;12;AMAZONAS
+2022/02;Desmatamento Recente;2;MARANHÃO
+2022/02;Desmatamento Recente;32;MATO GROSSO
+2022/02;Desmatamento Recente;2;PARÁ
+2022/02;Desmatamento Recente;3;RONDÔNIA
+2022/02;Desmatamento Recente;19;RORAIMA
+2022/02;Desmatamento Recente;2;TOCANTINS
+2022/02;Floresta;3;AMAZONAS
+2022/02;Floresta;1;MATO GROSSO
+2022/02;Floresta;4;PARÁ
+2022/02;Floresta;18;RORAIMA
+2022/02;Outros;1;AMAPÁ
+2022/02;Outros;8;MATO GROSSO
+2022/02;Outros;9;PARÁ
+2022/02;Outros;91;RORAIMA
+2022/02;Vegetacao Secundaria;1;AMAZONAS
+2022/02;Vegetacao Secundaria;1;MARANHÃO
+2022/02;Vegetacao Secundaria;9;MATO GROSSO
+2022/02;Vegetacao Secundaria;13;PARÁ
+2022/02;Vegetacao Secundaria;5;RORAIMA
+2022/02;Vegetacao Secundaria;2;TOCANTINS
+2022/03;Desmatamento Consolidado;6;AMAZONAS
+2022/03;Desmatamento Consolidado;3;MARANHÃO
+2022/03;Desmatamento Consolidado;277;MATO GROSSO
+2022/03;Desmatamento Consolidado;19;PARÁ
+2022/03;Desmatamento Consolidado;14;RONDÔNIA
+2022/03;Desmatamento Consolidado;19;RORAIMA
+2022/03;Desmatamento Recente;4;AMAZONAS
+2022/03;Desmatamento Recente;39;MATO GROSSO
+2022/03;Desmatamento Recente;4;PARÁ
+2022/03;Desmatamento Recente;1;RONDÔNIA
+2022/03;Desmatamento Recente;29;RORAIMA
+2022/03;Floresta;2;AMAZONAS
+2022/03;Floresta;7;MATO GROSSO
+2022/03;Floresta;2;RONDÔNIA
+2022/03;Floresta;14;RORAIMA
+2022/03;Outros;1;AMAPÁ
+2022/03;Outros;10;MATO GROSSO
+2022/03;Outros;8;PARÁ
+2022/03;Outros;13;RORAIMA
+2022/03;Vegetacao Secundaria;3;AMAZONAS
+2022/03;Vegetacao Secundaria;6;MATO GROSSO
+2022/03;Vegetacao Secundaria;3;PARÁ
+2022/03;Vegetacao Secundaria;6;RORAIMA
+2022/04;Desmatamento Consolidado;11;AMAZONAS
+2022/04;Desmatamento Consolidado;112;MATO GROSSO
+2022/04;Desmatamento Consolidado;17;PARÁ
+2022/04;Desmatamento Consolidado;13;RONDÔNIA
+2022/04;Desmatamento Consolidado;1;RORAIMA
+2022/04;Desmatamento Recente;5;ACRE
+2022/04;Desmatamento Recente;1;AMAZONAS
+2022/04;Desmatamento Recente;130;MATO GROSSO
+2022/04;Desmatamento Recente;10;PARÁ
+2022/04;Desmatamento Recente;5;RONDÔNIA
+2022/04;Desmatamento Recente;1;RORAIMA
+2022/04;Floresta;12;MATO GROSSO
+2022/04;Floresta;1;PARÁ
+2022/04;Outros;2;AMAPÁ
+2022/04;Outros;2;MARANHÃO
+2022/04;Outros;21;MATO GROSSO
+2022/04;Outros;6;PARÁ
+2022/04;Outros;1;RONDÔNIA
+2022/04;Outros;5;RORAIMA
+2022/04;Vegetacao Secundaria;1;ACRE
+2022/04;Vegetacao Secundaria;3;AMAZONAS
+2022/04;Vegetacao Secundaria;16;MATO GROSSO
+2022/04;Vegetacao Secundaria;3;PARÁ
+2022/04;Vegetacao Secundaria;5;RONDÔNIA
+2022/05;Desmatamento Consolidado;5;ACRE
+2022/05;Desmatamento Consolidado;17;AMAZONAS
+2022/05;Desmatamento Consolidado;3;MARANHÃO
+2022/05;Desmatamento Consolidado;474;MATO GROSSO
+2022/05;Desmatamento Consolidado;121;PARÁ
+2022/05;Desmatamento Consolidado;80;RONDÔNIA
+2022/05;Desmatamento Consolidado;2;RORAIMA
+2022/05;Desmatamento Consolidado;8;TOCANTINS
+2022/05;Desmatamento Recente;24;ACRE
+2022/05;Desmatamento Recente;6;AMAZONAS
+2022/05;Desmatamento Recente;7;MARANHÃO
+2022/05;Desmatamento Recente;982;MATO GROSSO
+2022/05;Desmatamento Recente;25;PARÁ
+2022/05;Desmatamento Recente;46;RONDÔNIA
+2022/05;Desmatamento Recente;5;TOCANTINS
+2022/05;Floresta;2;ACRE
+2022/05;Floresta;5;AMAZONAS
+2022/05;Floresta;1;MARANHÃO
+2022/05;Floresta;129;MATO GROSSO
+2022/05;Floresta;8;PARÁ
+2022/05;Floresta;1;RORAIMA
+2022/05;Outros;1;AMAPÁ
+2022/05;Outros;51;AMAZONAS
+2022/05;Outros;3;MARANHÃO
+2022/05;Outros;58;MATO GROSSO
+2022/05;Outros;51;PARÁ
+2022/05;Outros;8;RORAIMA
+2022/05;Vegetacao Secundaria;2;ACRE
+2022/05;Vegetacao Secundaria;2;AMAZONAS
+2022/05;Vegetacao Secundaria;3;MARANHÃO
+2022/05;Vegetacao Secundaria;126;MATO GROSSO
+2022/05;Vegetacao Secundaria;20;PARÁ
+2022/05;Vegetacao Secundaria;10;RONDÔNIA
+2022/05;Vegetacao Secundaria;1;TOCANTINS
+2022/06;Desmatamento Consolidado;19;ACRE
+2022/06;Desmatamento Consolidado;18;AMAZONAS
+2022/06;Desmatamento Consolidado;35;MARANHÃO
+2022/06;Desmatamento Consolidado;388;MATO GROSSO
+2022/06;Desmatamento Consolidado;277;PARÁ
+2022/06;Desmatamento Consolidado;50;RONDÔNIA
+2022/06;Desmatamento Consolidado;19;TOCANTINS
+2022/06;Desmatamento Recente;43;ACRE
+2022/06;Desmatamento Recente;22;AMAZONAS
+2022/06;Desmatamento Recente;12;MARANHÃO
+2022/06;Desmatamento Recente;934;MATO GROSSO
+2022/06;Desmatamento Recente;128;PARÁ
+2022/06;Desmatamento Recente;40;RONDÔNIA
+2022/06;Desmatamento Recente;2;TOCANTINS
+2022/06;Floresta;2;ACRE
+2022/06;Floresta;9;AMAZONAS
+2022/06;Floresta;3;MARANHÃO
+2022/06;Floresta;153;MATO GROSSO
+2022/06;Floresta;15;PARÁ
+2022/06;Floresta;5;RONDÔNIA
+2022/06;Outros;1;AMAPÁ
+2022/06;Outros;19;AMAZONAS
+2022/06;Outros;7;MARANHÃO
+2022/06;Outros;92;MATO GROSSO
+2022/06;Outros;57;PARÁ
+2022/06;Outros;5;RONDÔNIA
+2022/06;Outros;9;RORAIMA
+2022/06;Outros;1;TOCANTINS
+2022/06;Vegetacao Secundaria;7;ACRE
+2022/06;Vegetacao Secundaria;14;AMAZONAS
+2022/06;Vegetacao Secundaria;4;MARANHÃO
+2022/06;Vegetacao Secundaria;85;MATO GROSSO
+2022/06;Vegetacao Secundaria;79;PARÁ
+2022/06;Vegetacao Secundaria;6;RONDÔNIA
+2022/06;Vegetacao Secundaria;2;TOCANTINS
+2022/07;Desmatamento Consolidado;55;ACRE
+2022/07;Desmatamento Consolidado;216;AMAZONAS
+2022/07;Desmatamento Consolidado;61;MARANHÃO
+2022/07;Desmatamento Consolidado;292;MATO GROSSO
+2022/07;Desmatamento Consolidado;541;PARÁ
+2022/07;Desmatamento Consolidado;147;RONDÔNIA
+2022/07;Desmatamento Consolidado;1;RORAIMA
+2022/07;Desmatamento Consolidado;22;TOCANTINS
+2022/07;Desmatamento Recente;217;ACRE
+2022/07;Desmatamento Recente;947;AMAZONAS
+2022/07;Desmatamento Recente;52;MARANHÃO
+2022/07;Desmatamento Recente;655;MATO GROSSO
+2022/07;Desmatamento Recente;736;PARÁ
+2022/07;Desmatamento Recente;337;RONDÔNIA
+2022/07;Desmatamento Recente;5;TOCANTINS
+2022/07;Floresta;13;ACRE
+2022/07;Floresta;1;AMAPÁ
+2022/07;Floresta;151;AMAZONAS
+2022/07;Floresta;3;MARANHÃO
+2022/07;Floresta;134;MATO GROSSO
+2022/07;Floresta;112;PARÁ
+2022/07;Floresta;29;RONDÔNIA
+2022/07;Floresta;1;RORAIMA
+2022/07;Outros;4;AMAPÁ
+2022/07;Outros;27;AMAZONAS
+2022/07;Outros;3;MARANHÃO
+2022/07;Outros;74;MATO GROSSO
+2022/07;Outros;113;PARÁ
+2022/07;Outros;19;RONDÔNIA
+2022/07;Outros;10;RORAIMA
+2022/07;Outros;5;TOCANTINS
+2022/07;Vegetacao Secundaria;28;ACRE
+2022/07;Vegetacao Secundaria;87;AMAZONAS
+2022/07;Vegetacao Secundaria;27;MARANHÃO
+2022/07;Vegetacao Secundaria;41;MATO GROSSO
+2022/07;Vegetacao Secundaria;179;PARÁ
+2022/07;Vegetacao Secundaria;23;RONDÔNIA
+2022/07;Vegetacao Secundaria;5;TOCANTINS
+2022/08;Desmatamento Consolidado;407;ACRE
+2022/08;Desmatamento Consolidado;8;AMAPÁ
+2022/08;Desmatamento Consolidado;920;AMAZONAS
+2022/08;Desmatamento Consolidado;159;MARANHÃO
+2022/08;Desmatamento Consolidado;955;MATO GROSSO
+2022/08;Desmatamento Consolidado;2815;PARÁ
+2022/08;Desmatamento Consolidado;427;RONDÔNIA
+2022/08;Desmatamento Consolidado;5;RORAIMA
+2022/08;Desmatamento Consolidado;45;TOCANTINS
+2022/08;Desmatamento Recente;1795;ACRE
+2022/08;Desmatamento Recente;1;AMAPÁ
+2022/08;Desmatamento Recente;6122;AMAZONAS
+2022/08;Desmatamento Recente;76;MARANHÃO
+2022/08;Desmatamento Recente;3592;MATO GROSSO
+2022/08;Desmatamento Recente;7803;PARÁ
+2022/08;Desmatamento Recente;2687;RONDÔNIA
+2022/08;Desmatamento Recente;6;RORAIMA
+2022/08;Desmatamento Recente;2;TOCANTINS
+2022/08;Floresta;310;ACRE
+2022/08;Floresta;16;AMAPÁ
+2022/08;Floresta;671;AMAZONAS
+2022/08;Floresta;1;MARANHÃO
+2022/08;Floresta;1014;MATO GROSSO
+2022/08;Floresta;943;PARÁ
+2022/08;Floresta;173;RONDÔNIA
+2022/08;Floresta;6;RORAIMA
+2022/08;Floresta;8;TOCANTINS
+2022/08;Outros;12;AMAPÁ
+2022/08;Outros;24;AMAZONAS
+2022/08;Outros;33;MARANHÃO
+2022/08;Outros;151;MATO GROSSO
+2022/08;Outros;269;PARÁ
+2022/08;Outros;86;RONDÔNIA
+2022/08;Outros;18;RORAIMA
+2022/08;Outros;10;TOCANTINS
+2022/08;Vegetacao Secundaria;126;ACRE
+2022/08;Vegetacao Secundaria;379;AMAZONAS
+2022/08;Vegetacao Secundaria;35;MARANHÃO
+2022/08;Vegetacao Secundaria;216;MATO GROSSO
+2022/08;Vegetacao Secundaria;642;PARÁ
+2022/08;Vegetacao Secundaria;139;RONDÔNIA
+2022/08;Vegetacao Secundaria;5;RORAIMA
+2022/08;Vegetacao Secundaria;4;TOCANTINS
+2022/09;Desmatamento Consolidado;1006;ACRE
+2022/09;Desmatamento Consolidado;37;AMAPÁ
+2022/09;Desmatamento Consolidado;1308;AMAZONAS
+2022/09;Desmatamento Consolidado;286;MARANHÃO
+2022/09;Desmatamento Consolidado;1745;MATO GROSSO
+2022/09;Desmatamento Consolidado;3514;PARÁ
+2022/09;Desmatamento Consolidado;771;RONDÔNIA
+2022/09;Desmatamento Consolidado;13;RORAIMA
+2022/09;Desmatamento Consolidado;48;TOCANTINS
+2022/09;Desmatamento Recente;4656;ACRE
+2022/09;Desmatamento Recente;10;AMAPÁ
+2022/09;Desmatamento Recente;5871;AMAZONAS
+2022/09;Desmatamento Recente;116;MARANHÃO
+2022/09;Desmatamento Recente;3150;MATO GROSSO
+2022/09;Desmatamento Recente;6724;PARÁ
+2022/09;Desmatamento Recente;3731;RONDÔNIA
+2022/09;Desmatamento Recente;45;RORAIMA
+2022/09;Desmatamento Recente;4;TOCANTINS
+2022/09;Floresta;746;ACRE
+2022/09;Floresta;39;AMAPÁ
+2022/09;Floresta;903;AMAZONAS
+2022/09;Floresta;6;MARANHÃO
+2022/09;Floresta;1578;MATO GROSSO
+2022/09;Floresta;1160;PARÁ
+2022/09;Floresta;353;RONDÔNIA
+2022/09;Floresta;11;RORAIMA
+2022/09;Outros;104;AMAPÁ
+2022/09;Outros;89;AMAZONAS
+2022/09;Outros;25;MARANHÃO
+2022/09;Outros;242;MATO GROSSO
+2022/09;Outros;428;PARÁ
+2022/09;Outros;262;RONDÔNIA
+2022/09;Outros;18;RORAIMA
+2022/09;Outros;9;TOCANTINS
+2022/09;Vegetacao Secundaria;285;ACRE
+2022/09;Vegetacao Secundaria;9;AMAPÁ
+2022/09;Vegetacao Secundaria;488;AMAZONAS
+2022/09;Vegetacao Secundaria;138;MARANHÃO
+2022/09;Vegetacao Secundaria;234;MATO GROSSO
+2022/09;Vegetacao Secundaria;868;PARÁ
+2022/09;Vegetacao Secundaria;236;RONDÔNIA
+2022/09;Vegetacao Secundaria;5;RORAIMA
+2022/09;Vegetacao Secundaria;7;TOCANTINS
+2022/10;Desmatamento Consolidado;191;ACRE
+2022/10;Desmatamento Consolidado;134;AMAPÁ
+2022/10;Desmatamento Consolidado;313;AMAZONAS
+2022/10;Desmatamento Consolidado;770;MARANHÃO
+2022/10;Desmatamento Consolidado;362;MATO GROSSO
+2022/10;Desmatamento Consolidado;2354;PARÁ
+2022/10;Desmatamento Consolidado;178;RONDÔNIA
+2022/10;Desmatamento Consolidado;24;RORAIMA
+2022/10;Desmatamento Consolidado;62;TOCANTINS
+2022/10;Desmatamento Recente;795;ACRE
+2022/10;Desmatamento Recente;88;AMAPÁ
+2022/10;Desmatamento Recente;819;AMAZONAS
+2022/10;Desmatamento Recente;195;MARANHÃO
+2022/10;Desmatamento Recente;356;MATO GROSSO
+2022/10;Desmatamento Recente;3544;PARÁ
+2022/10;Desmatamento Recente;461;RONDÔNIA
+2022/10;Desmatamento Recente;60;RORAIMA
+2022/10;Desmatamento Recente;11;TOCANTINS
+2022/10;Floresta;92;ACRE
+2022/10;Floresta;117;AMAPÁ
+2022/10;Floresta;198;AMAZONAS
+2022/10;Floresta;13;MARANHÃO
+2022/10;Floresta;91;MATO GROSSO
+2022/10;Floresta;418;PARÁ
+2022/10;Floresta;43;RONDÔNIA
+2022/10;Floresta;3;RORAIMA
+2022/10;Floresta;1;TOCANTINS
+2022/10;Outros;238;AMAPÁ
+2022/10;Outros;25;AMAZONAS
+2022/10;Outros;50;MARANHÃO
+2022/10;Outros;56;MATO GROSSO
+2022/10;Outros;278;PARÁ
+2022/10;Outros;86;RONDÔNIA
+2022/10;Outros;19;RORAIMA
+2022/10;Outros;5;TOCANTINS
+2022/10;Vegetacao Secundaria;49;ACRE
+2022/10;Vegetacao Secundaria;35;AMAPÁ
+2022/10;Vegetacao Secundaria;148;AMAZONAS
+2022/10;Vegetacao Secundaria;241;MARANHÃO
+2022/10;Vegetacao Secundaria;37;MATO GROSSO
+2022/10;Vegetacao Secundaria;875;PARÁ
+2022/10;Vegetacao Secundaria;54;RONDÔNIA
+2022/10;Vegetacao Secundaria;11;RORAIMA
+2022/10;Vegetacao Secundaria;10;TOCANTINS
+2022/11;Desmatamento Consolidado;223;ACRE
+2022/11;Desmatamento Consolidado;12;AMAPÁ
+2022/11;Desmatamento Consolidado;231;AMAZONAS
+2022/11;Desmatamento Consolidado;831;MARANHÃO
+2022/11;Desmatamento Consolidado;482;MATO GROSSO
+2022/11;Desmatamento Consolidado;1827;PARÁ
+2022/11;Desmatamento Consolidado;763;RONDÔNIA
+2022/11;Desmatamento Consolidado;26;RORAIMA
+2022/11;Desmatamento Consolidado;28;TOCANTINS
+2022/11;Desmatamento Recente;137;ACRE
+2022/11;Desmatamento Recente;1;AMAPÁ
+2022/11;Desmatamento Recente;220;AMAZONAS
+2022/11;Desmatamento Recente;23;MARANHÃO
+2022/11;Desmatamento Recente;213;MATO GROSSO
+2022/11;Desmatamento Recente;352;PARÁ
+2022/11;Desmatamento Recente;276;RONDÔNIA
+2022/11;Desmatamento Recente;9;RORAIMA
+2022/11;Floresta;479;ACRE
+2022/11;Floresta;52;AMAPÁ
+2022/11;Floresta;375;AMAZONAS
+2022/11;Floresta;110;MARANHÃO
+2022/11;Floresta;347;MATO GROSSO
+2022/11;Floresta;1215;PARÁ
+2022/11;Floresta;468;RONDÔNIA
+2022/11;Floresta;42;RORAIMA
+2022/11;Floresta;5;TOCANTINS
+2022/11;Outros;6;ACRE
+2022/11;Outros;43;AMAPÁ
+2022/11;Outros;33;AMAZONAS
+2022/11;Outros;73;MARANHÃO
+2022/11;Outros;102;MATO GROSSO
+2022/11;Outros;187;PARÁ
+2022/11;Outros;111;RONDÔNIA
+2022/11;Outros;34;RORAIMA
+2022/11;Outros;4;TOCANTINS
+2022/11;Vegetacao Secundaria;78;ACRE
+2022/11;Vegetacao Secundaria;9;AMAPÁ
+2022/11;Vegetacao Secundaria;102;AMAZONAS
+2022/11;Vegetacao Secundaria;366;MARANHÃO
+2022/11;Vegetacao Secundaria;72;MATO GROSSO
+2022/11;Vegetacao Secundaria;926;PARÁ
+2022/11;Vegetacao Secundaria;147;RONDÔNIA
+2022/11;Vegetacao Secundaria;17;RORAIMA
+2022/11;Vegetacao Secundaria;5;TOCANTINS
+2022/12;Desmatamento Consolidado;6;ACRE
+2022/12;Desmatamento Consolidado;38;AMAZONAS
+2022/12;Desmatamento Consolidado;332;MARANHÃO
+2022/12;Desmatamento Consolidado;79;MATO GROSSO
+2022/12;Desmatamento Consolidado;645;PARÁ
+2022/12;Desmatamento Consolidado;31;RONDÔNIA
+2022/12;Desmatamento Consolidado;16;RORAIMA
+2022/12;Desmatamento Consolidado;13;TOCANTINS
+2022/12;Desmatamento Recente;32;AMAZONAS
+2022/12;Desmatamento Recente;14;MARANHÃO
+2022/12;Desmatamento Recente;42;MATO GROSSO
+2022/12;Desmatamento Recente;123;PARÁ
+2022/12;Desmatamento Recente;17;RONDÔNIA
+2022/12;Desmatamento Recente;16;RORAIMA
+2022/12;Desmatamento Recente;1;TOCANTINS
+2022/12;Floresta;3;ACRE
+2022/12;Floresta;2;AMAPÁ
+2022/12;Floresta;63;AMAZONAS
+2022/12;Floresta;67;MARANHÃO
+2022/12;Floresta;21;MATO GROSSO
+2022/12;Floresta;330;PARÁ
+2022/12;Floresta;15;RONDÔNIA
+2022/12;Floresta;52;RORAIMA
+2022/12;Floresta;2;TOCANTINS
+2022/12;Outros;1;AMAPÁ
+2022/12;Outros;13;AMAZONAS
+2022/12;Outros;38;MARANHÃO
+2022/12;Outros;8;MATO GROSSO
+2022/12;Outros;64;PARÁ
+2022/12;Outros;2;RONDÔNIA
+2022/12;Outros;109;RORAIMA
+2022/12;Outros;1;TOCANTINS
+2022/12;Vegetacao Secundaria;3;AMAPÁ
+2022/12;Vegetacao Secundaria;36;AMAZONAS
+2022/12;Vegetacao Secundaria;179;MARANHÃO
+2022/12;Vegetacao Secundaria;9;MATO GROSSO
+2022/12;Vegetacao Secundaria;310;PARÁ
+2022/12;Vegetacao Secundaria;5;RONDÔNIA
+2022/12;Vegetacao Secundaria;14;RORAIMA
+2022/12;Vegetacao Secundaria;4;TOCANTINS
+2021/01;Desmatamento Consolidado;1;ACRE
+2021/01;Desmatamento Consolidado;7;AMAZONAS
+2021/01;Desmatamento Consolidado;59;MARANHÃO
+2021/01;Desmatamento Consolidado;195;MATO GROSSO
+2021/01;Desmatamento Consolidado;124;PARÁ
+2021/01;Desmatamento Consolidado;20;RONDÔNIA
+2021/01;Desmatamento Consolidado;6;RORAIMA
+2021/01;Desmatamento Consolidado;1;TOCANTINS
+2021/01;Desmatamento Recente;4;ACRE
+2021/01;Desmatamento Recente;16;AMAZONAS
+2021/01;Desmatamento Recente;12;MARANHÃO
+2021/01;Desmatamento Recente;73;MATO GROSSO
+2021/01;Desmatamento Recente;73;PARÁ
+2021/01;Desmatamento Recente;23;RONDÔNIA
+2021/01;Desmatamento Recente;5;RORAIMA
+2021/01;Floresta;3;AMAZONAS
+2021/01;Floresta;6;MATO GROSSO
+2021/01;Floresta;5;PARÁ
+2021/01;Floresta;5;RORAIMA
+2021/01;Outros;2;AMAZONAS
+2021/01;Outros;9;MARANHÃO
+2021/01;Outros;15;MATO GROSSO
+2021/01;Outros;13;PARÁ
+2021/01;Outros;47;RORAIMA
+2021/01;Vegetacao Secundaria;9;AMAZONAS
+2021/01;Vegetacao Secundaria;13;MARANHÃO
+2021/01;Vegetacao Secundaria;10;MATO GROSSO
+2021/01;Vegetacao Secundaria;33;PARÁ
+2021/01;Vegetacao Secundaria;4;RONDÔNIA
+2021/01;Vegetacao Secundaria;1;TOCANTINS
+2021/02;Desmatamento Consolidado;12;AMAZONAS
+2021/02;Desmatamento Consolidado;29;MARANHÃO
+2021/02;Desmatamento Consolidado;298;MATO GROSSO
+2021/02;Desmatamento Consolidado;139;PARÁ
+2021/02;Desmatamento Consolidado;10;RONDÔNIA
+2021/02;Desmatamento Consolidado;11;RORAIMA
+2021/02;Desmatamento Recente;10;AMAZONAS
+2021/02;Desmatamento Recente;10;MARANHÃO
+2021/02;Desmatamento Recente;31;MATO GROSSO
+2021/02;Desmatamento Recente;78;PARÁ
+2021/02;Desmatamento Recente;5;RONDÔNIA
+2021/02;Desmatamento Recente;16;RORAIMA
+2021/02;Floresta;1;AMAPÁ
+2021/02;Floresta;6;AMAZONAS
+2021/02;Floresta;1;MATO GROSSO
+2021/02;Floresta;6;PARÁ
+2021/02;Floresta;6;RORAIMA
+2021/02;Outros;1;AMAZONAS
+2021/02;Outros;24;MATO GROSSO
+2021/02;Outros;5;PARÁ
+2021/02;Outros;1;RONDÔNIA
+2021/02;Outros;104;RORAIMA
+2021/02;Vegetacao Secundaria;4;AMAZONAS
+2021/02;Vegetacao Secundaria;6;MARANHÃO
+2021/02;Vegetacao Secundaria;6;MATO GROSSO
+2021/02;Vegetacao Secundaria;44;PARÁ
+2021/03;Desmatamento Consolidado;2;ACRE
+2021/03;Desmatamento Consolidado;10;AMAZONAS
+2021/03;Desmatamento Consolidado;1;MARANHÃO
+2021/03;Desmatamento Consolidado;307;MATO GROSSO
+2021/03;Desmatamento Consolidado;20;PARÁ
+2021/03;Desmatamento Consolidado;12;RONDÔNIA
+2021/03;Desmatamento Consolidado;35;RORAIMA
+2021/03;Desmatamento Consolidado;2;TOCANTINS
+2021/03;Desmatamento Recente;1;AMAZONAS
+2021/03;Desmatamento Recente;1;MARANHÃO
+2021/03;Desmatamento Recente;26;MATO GROSSO
+2021/03;Desmatamento Recente;4;PARÁ
+2021/03;Desmatamento Recente;3;RONDÔNIA
+2021/03;Desmatamento Recente;63;RORAIMA
+2021/03;Floresta;4;AMAZONAS
+2021/03;Floresta;3;MATO GROSSO
+2021/03;Floresta;2;PARÁ
+2021/03;Floresta;24;RORAIMA
+2021/03;Outros;1;AMAPÁ
+2021/03;Outros;17;MATO GROSSO
+2021/03;Outros;5;PARÁ
+2021/03;Outros;3;RONDÔNIA
+2021/03;Outros;71;RORAIMA
+2021/03;Vegetacao Secundaria;1;ACRE
+2021/03;Vegetacao Secundaria;2;AMAZONAS
+2021/03;Vegetacao Secundaria;2;MARANHÃO
+2021/03;Vegetacao Secundaria;6;MATO GROSSO
+2021/03;Vegetacao Secundaria;3;PARÁ
+2021/03;Vegetacao Secundaria;1;RONDÔNIA
+2021/03;Vegetacao Secundaria;11;RORAIMA
+2021/04;Desmatamento Consolidado;2;ACRE
+2021/04;Desmatamento Consolidado;10;AMAZONAS
+2021/04;Desmatamento Consolidado;4;MARANHÃO
+2021/04;Desmatamento Consolidado;291;MATO GROSSO
+2021/04;Desmatamento Consolidado;35;PARÁ
+2021/04;Desmatamento Consolidado;13;RONDÔNIA
+2021/04;Desmatamento Consolidado;20;RORAIMA
+2021/04;Desmatamento Recente;4;ACRE
+2021/04;Desmatamento Recente;4;AMAZONAS
+2021/04;Desmatamento Recente;69;MATO GROSSO
+2021/04;Desmatamento Recente;5;PARÁ
+2021/04;Desmatamento Recente;1;RONDÔNIA
+2021/04;Desmatamento Recente;25;RORAIMA
+2021/04;Floresta;1;AMAZONAS
+2021/04;Floresta;1;MATO GROSSO
+2021/04;Floresta;3;PARÁ
+2021/04;Floresta;1;RONDÔNIA
+2021/04;Floresta;17;RORAIMA
+2021/04;Outros;30;MATO GROSSO
+2021/04;Outros;2;PARÁ
+2021/04;Outros;39;RORAIMA
+2021/04;Vegetacao Secundaria;1;ACRE
+2021/04;Vegetacao Secundaria;3;AMAZONAS
+2021/04;Vegetacao Secundaria;14;MATO GROSSO
+2021/04;Vegetacao Secundaria;10;PARÁ
+2021/04;Vegetacao Secundaria;1;RONDÔNIA
+2021/04;Vegetacao Secundaria;9;RORAIMA
+2021/05;Desmatamento Consolidado;10;ACRE
+2021/05;Desmatamento Consolidado;15;AMAZONAS
+2021/05;Desmatamento Consolidado;19;MARANHÃO
+2021/05;Desmatamento Consolidado;379;MATO GROSSO
+2021/05;Desmatamento Consolidado;102;PARÁ
+2021/05;Desmatamento Consolidado;46;RONDÔNIA
+2021/05;Desmatamento Consolidado;10;TOCANTINS
+2021/05;Desmatamento Recente;17;ACRE
+2021/05;Desmatamento Recente;7;AMAZONAS
+2021/05;Desmatamento Recente;6;MARANHÃO
+2021/05;Desmatamento Recente;298;MATO GROSSO
+2021/05;Desmatamento Recente;29;PARÁ
+2021/05;Desmatamento Recente;26;RONDÔNIA
+2021/05;Desmatamento Recente;3;TOCANTINS
+2021/05;Floresta;1;ACRE
+2021/05;Floresta;1;AMAZONAS
+2021/05;Floresta;25;MATO GROSSO
+2021/05;Floresta;2;PARÁ
+2021/05;Floresta;7;RONDÔNIA
+2021/05;Outros;13;AMAZONAS
+2021/05;Outros;1;MARANHÃO
+2021/05;Outros;15;MATO GROSSO
+2021/05;Outros;26;PARÁ
+2021/05;Outros;4;RONDÔNIA
+2021/05;Outros;3;RORAIMA
+2021/05;Vegetacao Secundaria;2;ACRE
+2021/05;Vegetacao Secundaria;9;AMAZONAS
+2021/05;Vegetacao Secundaria;6;MARANHÃO
+2021/05;Vegetacao Secundaria;45;MATO GROSSO
+2021/05;Vegetacao Secundaria;31;PARÁ
+2021/05;Vegetacao Secundaria;8;RONDÔNIA
+2021/06;Desmatamento Consolidado;13;ACRE
+2021/06;Desmatamento Consolidado;29;AMAZONAS
+2021/06;Desmatamento Consolidado;31;MARANHÃO
+2021/06;Desmatamento Consolidado;530;MATO GROSSO
+2021/06;Desmatamento Consolidado;254;PARÁ
+2021/06;Desmatamento Consolidado;64;RONDÔNIA
+2021/06;Desmatamento Consolidado;2;RORAIMA
+2021/06;Desmatamento Consolidado;10;TOCANTINS
+2021/06;Desmatamento Recente;32;ACRE
+2021/06;Desmatamento Recente;22;AMAZONAS
+2021/06;Desmatamento Recente;12;MARANHÃO
+2021/06;Desmatamento Recente;722;MATO GROSSO
+2021/06;Desmatamento Recente;61;PARÁ
+2021/06;Desmatamento Recente;49;RONDÔNIA
+2021/06;Desmatamento Recente;2;TOCANTINS
+2021/06;Floresta;1;ACRE
+2021/06;Floresta;3;AMAZONAS
+2021/06;Floresta;1;MARANHÃO
+2021/06;Floresta;127;MATO GROSSO
+2021/06;Floresta;11;PARÁ
+2021/06;Floresta;1;RONDÔNIA
+2021/06;Floresta;3;RORAIMA
+2021/06;Floresta;1;TOCANTINS
+2021/06;Outros;4;AMAPÁ
+2021/06;Outros;13;AMAZONAS
+2021/06;Outros;3;MARANHÃO
+2021/06;Outros;76;MATO GROSSO
+2021/06;Outros;47;PARÁ
+2021/06;Outros;1;RONDÔNIA
+2021/06;Outros;6;RORAIMA
+2021/06;Vegetacao Secundaria;4;ACRE
+2021/06;Vegetacao Secundaria;10;AMAZONAS
+2021/06;Vegetacao Secundaria;15;MARANHÃO
+2021/06;Vegetacao Secundaria;79;MATO GROSSO
+2021/06;Vegetacao Secundaria;51;PARÁ
+2021/06;Vegetacao Secundaria;16;RONDÔNIA
+2021/06;Vegetacao Secundaria;2;TOCANTINS
+2021/07;Desmatamento Consolidado;93;ACRE
+2021/07;Desmatamento Consolidado;234;AMAZONAS
+2021/07;Desmatamento Consolidado;62;MARANHÃO
+2021/07;Desmatamento Consolidado;305;MATO GROSSO
+2021/07;Desmatamento Consolidado;490;PARÁ
+2021/07;Desmatamento Consolidado;307;RONDÔNIA
+2021/07;Desmatamento Consolidado;11;TOCANTINS
+2021/07;Desmatamento Recente;272;ACRE
+2021/07;Desmatamento Recente;688;AMAZONAS
+2021/07;Desmatamento Recente;26;MARANHÃO
+2021/07;Desmatamento Recente;475;MATO GROSSO
+2021/07;Desmatamento Recente;537;PARÁ
+2021/07;Desmatamento Recente;407;RONDÔNIA
+2021/07;Desmatamento Recente;3;TOCANTINS
+2021/07;Floresta;42;ACRE
+2021/07;Floresta;133;AMAZONAS
+2021/07;Floresta;1;MARANHÃO
+2021/07;Floresta;92;MATO GROSSO
+2021/07;Floresta;76;PARÁ
+2021/07;Floresta;29;RONDÔNIA
+2021/07;Outros;5;AMAPÁ
+2021/07;Outros;15;AMAZONAS
+2021/07;Outros;1;MARANHÃO
+2021/07;Outros;111;MATO GROSSO
+2021/07;Outros;76;PARÁ
+2021/07;Outros;26;RONDÔNIA
+2021/07;Outros;5;RORAIMA
+2021/07;Outros;1;TOCANTINS
+2021/07;Vegetacao Secundaria;26;ACRE
+2021/07;Vegetacao Secundaria;103;AMAZONAS
+2021/07;Vegetacao Secundaria;25;MARANHÃO
+2021/07;Vegetacao Secundaria;36;MATO GROSSO
+2021/07;Vegetacao Secundaria;193;PARÁ
+2021/07;Vegetacao Secundaria;67;RONDÔNIA
+2021/07;Vegetacao Secundaria;4;TOCANTINS
+2021/08;Desmatamento Consolidado;549;ACRE
+2021/08;Desmatamento Consolidado;3;AMAPÁ
+2021/08;Desmatamento Consolidado;1289;AMAZONAS
+2021/08;Desmatamento Consolidado;160;MARANHÃO
+2021/08;Desmatamento Consolidado;884;MATO GROSSO
+2021/08;Desmatamento Consolidado;1762;PARÁ
+2021/08;Desmatamento Consolidado;637;RONDÔNIA
+2021/08;Desmatamento Consolidado;3;RORAIMA
+2021/08;Desmatamento Consolidado;28;TOCANTINS
+2021/08;Desmatamento Recente;2081;ACRE
+2021/08;Desmatamento Recente;1;AMAPÁ
+2021/08;Desmatamento Recente;5830;AMAZONAS
+2021/08;Desmatamento Recente;40;MARANHÃO
+2021/08;Desmatamento Recente;1928;MATO GROSSO
+2021/08;Desmatamento Recente;4806;PARÁ
+2021/08;Desmatamento Recente;3040;RONDÔNIA
+2021/08;Desmatamento Recente;10;RORAIMA
+2021/08;Desmatamento Recente;3;TOCANTINS
+2021/08;Floresta;346;ACRE
+2021/08;Floresta;1;AMAPÁ
+2021/08;Floresta;902;AMAZONAS
+2021/08;Floresta;6;MARANHÃO
+2021/08;Floresta;581;MATO GROSSO
+2021/08;Floresta;663;PARÁ
+2021/08;Floresta;305;RONDÔNIA
+2021/08;Outros;13;AMAPÁ
+2021/08;Outros;55;AMAZONAS
+2021/08;Outros;11;MARANHÃO
+2021/08;Outros;211;MATO GROSSO
+2021/08;Outros;145;PARÁ
+2021/08;Outros;129;RONDÔNIA
+2021/08;Outros;6;RORAIMA
+2021/08;Outros;6;TOCANTINS
+2021/08;Vegetacao Secundaria;209;ACRE
+2021/08;Vegetacao Secundaria;1;AMAPÁ
+2021/08;Vegetacao Secundaria;512;AMAZONAS
+2021/08;Vegetacao Secundaria;50;MARANHÃO
+2021/08;Vegetacao Secundaria;161;MATO GROSSO
+2021/08;Vegetacao Secundaria;477;PARÁ
+2021/08;Vegetacao Secundaria;208;RONDÔNIA
+2021/08;Vegetacao Secundaria;8;TOCANTINS
+2021/09;Desmatamento Consolidado;684;ACRE
+2021/09;Desmatamento Consolidado;20;AMAPÁ
+2021/09;Desmatamento Consolidado;580;AMAZONAS
+2021/09;Desmatamento Consolidado;136;MARANHÃO
+2021/09;Desmatamento Consolidado;905;MATO GROSSO
+2021/09;Desmatamento Consolidado;1297;PARÁ
+2021/09;Desmatamento Consolidado;625;RONDÔNIA
+2021/09;Desmatamento Consolidado;6;RORAIMA
+2021/09;Desmatamento Consolidado;32;TOCANTINS
+2021/09;Desmatamento Recente;2725;ACRE
+2021/09;Desmatamento Recente;4;AMAPÁ
+2021/09;Desmatamento Recente;1685;AMAZONAS
+2021/09;Desmatamento Recente;36;MARANHÃO
+2021/09;Desmatamento Recente;1384;MATO GROSSO
+2021/09;Desmatamento Recente;1901;PARÁ
+2021/09;Desmatamento Recente;1688;RONDÔNIA
+2021/09;Desmatamento Recente;7;RORAIMA
+2021/09;Desmatamento Recente;1;TOCANTINS
+2021/09;Floresta;403;ACRE
+2021/09;Floresta;19;AMAPÁ
+2021/09;Floresta;300;AMAZONAS
+2021/09;Floresta;3;MARANHÃO
+2021/09;Floresta;306;MATO GROSSO
+2021/09;Floresta;203;PARÁ
+2021/09;Floresta;91;RONDÔNIA
+2021/09;Floresta;3;RORAIMA
+2021/09;Outros;92;AMAPÁ
+2021/09;Outros;15;AMAZONAS
+2021/09;Outros;22;MARANHÃO
+2021/09;Outros;189;MATO GROSSO
+2021/09;Outros;104;PARÁ
+2021/09;Outros;67;RONDÔNIA
+2021/09;Outros;38;RORAIMA
+2021/09;Outros;6;TOCANTINS
+2021/09;Vegetacao Secundaria;170;ACRE
+2021/09;Vegetacao Secundaria;2;AMAPÁ
+2021/09;Vegetacao Secundaria;219;AMAZONAS
+2021/09;Vegetacao Secundaria;135;MARANHÃO
+2021/09;Vegetacao Secundaria;150;MATO GROSSO
+2021/09;Vegetacao Secundaria;323;PARÁ
+2021/09;Vegetacao Secundaria;164;RONDÔNIA
+2021/09;Vegetacao Secundaria;2;TOCANTINS
+2021/10;Desmatamento Consolidado;209;ACRE
+2021/10;Desmatamento Consolidado;93;AMAPÁ
+2021/10;Desmatamento Consolidado;400;AMAZONAS
+2021/10;Desmatamento Consolidado;544;MARANHÃO
+2021/10;Desmatamento Consolidado;513;MATO GROSSO
+2021/10;Desmatamento Consolidado;1314;PARÁ
+2021/10;Desmatamento Consolidado;440;RONDÔNIA
+2021/10;Desmatamento Consolidado;9;RORAIMA
+2021/10;Desmatamento Consolidado;49;TOCANTINS
+2021/10;Desmatamento Recente;737;ACRE
+2021/10;Desmatamento Recente;54;AMAPÁ
+2021/10;Desmatamento Recente;987;AMAZONAS
+2021/10;Desmatamento Recente;162;MARANHÃO
+2021/10;Desmatamento Recente;365;MATO GROSSO
+2021/10;Desmatamento Recente;2061;PARÁ
+2021/10;Desmatamento Recente;968;RONDÔNIA
+2021/10;Desmatamento Recente;18;RORAIMA
+2021/10;Floresta;99;ACRE
+2021/10;Floresta;75;AMAPÁ
+2021/10;Floresta;203;AMAZONAS
+2021/10;Floresta;13;MARANHÃO
+2021/10;Floresta;79;MATO GROSSO
+2021/10;Floresta;239;PARÁ
+2021/10;Floresta;102;RONDÔNIA
+2021/10;Floresta;12;RORAIMA
+2021/10;Outros;160;AMAPÁ
+2021/10;Outros;13;AMAZONAS
+2021/10;Outros;32;MARANHÃO
+2021/10;Outros;62;MATO GROSSO
+2021/10;Outros;172;PARÁ
+2021/10;Outros;157;RONDÔNIA
+2021/10;Outros;81;RORAIMA
+2021/10;Outros;15;TOCANTINS
+2021/10;Vegetacao Secundaria;73;ACRE
+2021/10;Vegetacao Secundaria;19;AMAPÁ
+2021/10;Vegetacao Secundaria;170;AMAZONAS
+2021/10;Vegetacao Secundaria;179;MARANHÃO
+2021/10;Vegetacao Secundaria;54;MATO GROSSO
+2021/10;Vegetacao Secundaria;505;PARÁ
+2021/10;Vegetacao Secundaria;96;RONDÔNIA
+2021/10;Vegetacao Secundaria;5;RORAIMA
+2021/10;Vegetacao Secundaria;11;TOCANTINS
+2021/11;Desmatamento Consolidado;4;ACRE
+2021/11;Desmatamento Consolidado;23;AMAPÁ
+2021/11;Desmatamento Consolidado;76;AMAZONAS
+2021/11;Desmatamento Consolidado;713;MARANHÃO
+2021/11;Desmatamento Consolidado;115;MATO GROSSO
+2021/11;Desmatamento Consolidado;1406;PARÁ
+2021/11;Desmatamento Consolidado;52;RONDÔNIA
+2021/11;Desmatamento Consolidado;14;RORAIMA
+2021/11;Desmatamento Consolidado;17;TOCANTINS
+2021/11;Desmatamento Recente;6;ACRE
+2021/11;Desmatamento Recente;16;AMAPÁ
+2021/11;Desmatamento Recente;107;AMAZONAS
+2021/11;Desmatamento Recente;95;MARANHÃO
+2021/11;Desmatamento Recente;78;MATO GROSSO
+2021/11;Desmatamento Recente;1292;PARÁ
+2021/11;Desmatamento Recente;57;RONDÔNIA
+2021/11;Desmatamento Recente;36;RORAIMA
+2021/11;Desmatamento Recente;2;TOCANTINS
+2021/11;Floresta;1;ACRE
+2021/11;Floresta;22;AMAPÁ
+2021/11;Floresta;19;AMAZONAS
+2021/11;Floresta;12;MARANHÃO
+2021/11;Floresta;11;MATO GROSSO
+2021/11;Floresta;127;PARÁ
+2021/11;Floresta;7;RONDÔNIA
+2021/11;Floresta;7;RORAIMA
+2021/11;Outros;27;AMAPÁ
+2021/11;Outros;6;AMAZONAS
+2021/11;Outros;66;MARANHÃO
+2021/11;Outros;7;MATO GROSSO
+2021/11;Outros;94;PARÁ
+2021/11;Outros;1;RONDÔNIA
+2021/11;Outros;110;RORAIMA
+2021/11;Outros;4;TOCANTINS
+2021/11;Vegetacao Secundaria;3;ACRE
+2021/11;Vegetacao Secundaria;15;AMAPÁ
+2021/11;Vegetacao Secundaria;40;AMAZONAS
+2021/11;Vegetacao Secundaria;316;MARANHÃO
+2021/11;Vegetacao Secundaria;13;MATO GROSSO
+2021/11;Vegetacao Secundaria;740;PARÁ
+2021/11;Vegetacao Secundaria;8;RONDÔNIA
+2021/11;Vegetacao Secundaria;7;RORAIMA
+2021/11;Vegetacao Secundaria;7;TOCANTINS
+2021/12;Desmatamento Consolidado;1;AMAPÁ
+2021/12;Desmatamento Consolidado;9;AMAZONAS
+2021/12;Desmatamento Consolidado;327;MARANHÃO
+2021/12;Desmatamento Consolidado;96;MATO GROSSO
+2021/12;Desmatamento Consolidado;307;PARÁ
+2021/12;Desmatamento Consolidado;13;RONDÔNIA
+2021/12;Desmatamento Consolidado;7;RORAIMA
+2021/12;Desmatamento Consolidado;6;TOCANTINS
+2021/12;Desmatamento Recente;1;ACRE
+2021/12;Desmatamento Recente;18;AMAZONAS
+2021/12;Desmatamento Recente;56;MARANHÃO
+2021/12;Desmatamento Recente;32;MATO GROSSO
+2021/12;Desmatamento Recente;152;PARÁ
+2021/12;Desmatamento Recente;13;RONDÔNIA
+2021/12;Desmatamento Recente;5;RORAIMA
+2021/12;Floresta;1;AMAPÁ
+2021/12;Floresta;3;MARANHÃO
+2021/12;Floresta;3;MATO GROSSO
+2021/12;Floresta;11;PARÁ
+2021/12;Floresta;6;RORAIMA
+2021/12;Outros;2;AMAPÁ
+2021/12;Outros;2;AMAZONAS
+2021/12;Outros;31;MARANHÃO
+2021/12;Outros;17;MATO GROSSO
+2021/12;Outros;25;PARÁ
+2021/12;Outros;3;RONDÔNIA
+2021/12;Outros;63;RORAIMA
+2021/12;Vegetacao Secundaria;1;AMAPÁ
+2021/12;Vegetacao Secundaria;14;AMAZONAS
+2021/12;Vegetacao Secundaria;206;MARANHÃO
+2021/12;Vegetacao Secundaria;3;MATO GROSSO
+2021/12;Vegetacao Secundaria;155;PARÁ
+2021/12;Vegetacao Secundaria;2;RONDÔNIA
+2021/12;Vegetacao Secundaria;3;RORAIMA
+2021/12;Vegetacao Secundaria;2;TOCANTINS
+2020/01;Desmatamento Consolidado;3;ACRE
+2020/01;Desmatamento Consolidado;67;AMAZONAS
+2020/01;Desmatamento Consolidado;12;MARANHÃO
+2020/01;Desmatamento Consolidado;276;MATO GROSSO
+2020/01;Desmatamento Consolidado;136;PARÁ
+2020/01;Desmatamento Consolidado;25;RONDÔNIA
+2020/01;Desmatamento Consolidado;28;RORAIMA
+2020/01;Desmatamento Consolidado;1;TOCANTINS
+2020/01;Desmatamento Recente;12;ACRE
+2020/01;Desmatamento Recente;65;AMAZONAS
+2020/01;Desmatamento Recente;71;MATO GROSSO
+2020/01;Desmatamento Recente;48;PARÁ
+2020/01;Desmatamento Recente;21;RONDÔNIA
+2020/01;Desmatamento Recente;48;RORAIMA
+2020/01;Floresta;30;AMAZONAS
+2020/01;Floresta;7;MATO GROSSO
+2020/01;Floresta;3;PARÁ
+2020/01;Floresta;35;RORAIMA
+2020/01;Outros;1;AMAPÁ
+2020/01;Outros;5;AMAZONAS
+2020/01;Outros;3;MARANHÃO
+2020/01;Outros;30;MATO GROSSO
+2020/01;Outros;9;PARÁ
+2020/01;Outros;4;RONDÔNIA
+2020/01;Outros;175;RORAIMA
+2020/01;Vegetacao Secundaria;1;ACRE
+2020/01;Vegetacao Secundaria;1;AMAPÁ
+2020/01;Vegetacao Secundaria;30;AMAZONAS
+2020/01;Vegetacao Secundaria;7;MATO GROSSO
+2020/01;Vegetacao Secundaria;29;PARÁ
+2020/01;Vegetacao Secundaria;6;RONDÔNIA
+2020/01;Vegetacao Secundaria;11;RORAIMA
+2020/02;Desmatamento Consolidado;18;AMAZONAS
+2020/02;Desmatamento Consolidado;7;MARANHÃO
+2020/02;Desmatamento Consolidado;441;MATO GROSSO
+2020/02;Desmatamento Consolidado;40;PARÁ
+2020/02;Desmatamento Consolidado;22;RONDÔNIA
+2020/02;Desmatamento Consolidado;23;RORAIMA
+2020/02;Desmatamento Consolidado;1;TOCANTINS
+2020/02;Desmatamento Recente;32;AMAZONAS
+2020/02;Desmatamento Recente;42;MATO GROSSO
+2020/02;Desmatamento Recente;11;PARÁ
+2020/02;Desmatamento Recente;9;RONDÔNIA
+2020/02;Desmatamento Recente;67;RORAIMA
+2020/02;Floresta;15;AMAZONAS
+2020/02;Floresta;3;MATO GROSSO
+2020/02;Floresta;2;PARÁ
+2020/02;Floresta;3;RONDÔNIA
+2020/02;Floresta;47;RORAIMA
+2020/02;Outros;1;AMAPÁ
+2020/02;Outros;1;AMAZONAS
+2020/02;Outros;34;MATO GROSSO
+2020/02;Outros;8;PARÁ
+2020/02;Outros;4;RONDÔNIA
+2020/02;Outros;337;RORAIMA
+2020/02;Vegetacao Secundaria;7;AMAZONAS
+2020/02;Vegetacao Secundaria;8;MATO GROSSO
+2020/02;Vegetacao Secundaria;3;PARÁ
+2020/02;Vegetacao Secundaria;1;RONDÔNIA
+2020/02;Vegetacao Secundaria;9;RORAIMA
+2020/03;Desmatamento Consolidado;1;ACRE
+2020/03;Desmatamento Consolidado;1;AMAPÁ
+2020/03;Desmatamento Consolidado;26;AMAZONAS
+2020/03;Desmatamento Consolidado;641;MATO GROSSO
+2020/03;Desmatamento Consolidado;37;PARÁ
+2020/03;Desmatamento Consolidado;28;RONDÔNIA
+2020/03;Desmatamento Consolidado;133;RORAIMA
+2020/03;Desmatamento Consolidado;3;TOCANTINS
+2020/03;Desmatamento Recente;18;AMAZONAS
+2020/03;Desmatamento Recente;1;MARANHÃO
+2020/03;Desmatamento Recente;56;MATO GROSSO
+2020/03;Desmatamento Recente;13;PARÁ
+2020/03;Desmatamento Recente;5;RONDÔNIA
+2020/03;Desmatamento Recente;274;RORAIMA
+2020/03;Floresta;17;AMAZONAS
+2020/03;Floresta;6;MATO GROSSO
+2020/03;Floresta;1;PARÁ
+2020/03;Floresta;3;RONDÔNIA
+2020/03;Floresta;86;RORAIMA
+2020/03;Outros;4;AMAZONAS
+2020/03;Outros;46;MATO GROSSO
+2020/03;Outros;6;PARÁ
+2020/03;Outros;165;RORAIMA
+2020/03;Vegetacao Secundaria;12;AMAZONAS
+2020/03;Vegetacao Secundaria;13;MATO GROSSO
+2020/03;Vegetacao Secundaria;6;PARÁ
+2020/03;Vegetacao Secundaria;2;RONDÔNIA
+2020/03;Vegetacao Secundaria;37;RORAIMA
+2020/04;Desmatamento Consolidado;4;ACRE
+2020/04;Desmatamento Consolidado;9;AMAZONAS
+2020/04;Desmatamento Consolidado;1;MARANHÃO
+2020/04;Desmatamento Consolidado;392;MATO GROSSO
+2020/04;Desmatamento Consolidado;32;PARÁ
+2020/04;Desmatamento Consolidado;12;RONDÔNIA
+2020/04;Desmatamento Consolidado;44;RORAIMA
+2020/04;Desmatamento Consolidado;1;TOCANTINS
+2020/04;Desmatamento Recente;2;AMAZONAS
+2020/04;Desmatamento Recente;84;MATO GROSSO
+2020/04;Desmatamento Recente;15;RONDÔNIA
+2020/04;Desmatamento Recente;47;RORAIMA
+2020/04;Floresta;1;AMAZONAS
+2020/04;Floresta;5;MATO GROSSO
+2020/04;Floresta;1;PARÁ
+2020/04;Floresta;12;RORAIMA
+2020/04;Outros;46;MATO GROSSO
+2020/04;Outros;5;PARÁ
+2020/04;Outros;5;RONDÔNIA
+2020/04;Outros;52;RORAIMA
+2020/04;Vegetacao Secundaria;8;MATO GROSSO
+2020/04;Vegetacao Secundaria;1;RONDÔNIA
+2020/04;Vegetacao Secundaria;10;RORAIMA
+2020/05;Desmatamento Consolidado;10;ACRE
+2020/05;Desmatamento Consolidado;6;AMAZONAS
+2020/05;Desmatamento Consolidado;10;MARANHÃO
+2020/05;Desmatamento Consolidado;270;MATO GROSSO
+2020/05;Desmatamento Consolidado;52;PARÁ
+2020/05;Desmatamento Consolidado;27;RONDÔNIA
+2020/05;Desmatamento Consolidado;7;TOCANTINS
+2020/05;Desmatamento Recente;25;ACRE
+2020/05;Desmatamento Recente;7;AMAZONAS
+2020/05;Desmatamento Recente;5;MARANHÃO
+2020/05;Desmatamento Recente;237;MATO GROSSO
+2020/05;Desmatamento Recente;14;PARÁ
+2020/05;Desmatamento Recente;21;RONDÔNIA
+2020/05;Desmatamento Recente;1;RORAIMA
+2020/05;Floresta;1;ACRE
+2020/05;Floresta;19;MATO GROSSO
+2020/05;Floresta;2;PARÁ
+2020/05;Floresta;1;RONDÔNIA
+2020/05;Floresta;2;RORAIMA
+2020/05;Outros;1;AMAZONAS
+2020/05;Outros;55;MATO GROSSO
+2020/05;Outros;8;PARÁ
+2020/05;Outros;5;RONDÔNIA
+2020/05;Outros;8;RORAIMA
+2020/05;Outros;1;TOCANTINS
+2020/05;Vegetacao Secundaria;3;ACRE
+2020/05;Vegetacao Secundaria;1;AMAZONAS
+2020/05;Vegetacao Secundaria;3;MARANHÃO
+2020/05;Vegetacao Secundaria;11;MATO GROSSO
+2020/05;Vegetacao Secundaria;12;PARÁ
+2020/05;Vegetacao Secundaria;4;RONDÔNIA
+2020/06;Desmatamento Consolidado;20;ACRE
+2020/06;Desmatamento Consolidado;48;AMAZONAS
+2020/06;Desmatamento Consolidado;34;MARANHÃO
+2020/06;Desmatamento Consolidado;497;MATO GROSSO
+2020/06;Desmatamento Consolidado;276;PARÁ
+2020/06;Desmatamento Consolidado;71;RONDÔNIA
+2020/06;Desmatamento Consolidado;1;RORAIMA
+2020/06;Desmatamento Consolidado;27;TOCANTINS
+2020/06;Desmatamento Recente;41;ACRE
+2020/06;Desmatamento Recente;20;AMAZONAS
+2020/06;Desmatamento Recente;31;MARANHÃO
+2020/06;Desmatamento Recente;553;MATO GROSSO
+2020/06;Desmatamento Recente;108;PARÁ
+2020/06;Desmatamento Recente;57;RONDÔNIA
+2020/06;Desmatamento Recente;1;RORAIMA
+2020/06;Desmatamento Recente;1;TOCANTINS
+2020/06;Floresta;16;AMAZONAS
+2020/06;Floresta;104;MATO GROSSO
+2020/06;Floresta;8;PARÁ
+2020/06;Floresta;3;RONDÔNIA
+2020/06;Floresta;1;TOCANTINS
+2020/06;Outros;3;AMAPÁ
+2020/06;Outros;13;AMAZONAS
+2020/06;Outros;9;MARANHÃO
+2020/06;Outros;91;MATO GROSSO
+2020/06;Outros;31;PARÁ
+2020/06;Outros;1;RONDÔNIA
+2020/06;Outros;1;RORAIMA
+2020/06;Outros;1;TOCANTINS
+2020/06;Vegetacao Secundaria;10;ACRE
+2020/06;Vegetacao Secundaria;25;AMAZONAS
+2020/06;Vegetacao Secundaria;12;MARANHÃO
+2020/06;Vegetacao Secundaria;58;MATO GROSSO
+2020/06;Vegetacao Secundaria;68;PARÁ
+2020/06;Vegetacao Secundaria;6;RONDÔNIA
+2020/06;Vegetacao Secundaria;1;RORAIMA
+2020/07;Desmatamento Consolidado;75;ACRE
+2020/07;Desmatamento Consolidado;1;AMAPÁ
+2020/07;Desmatamento Consolidado;519;AMAZONAS
+2020/07;Desmatamento Consolidado;144;MARANHÃO
+2020/07;Desmatamento Consolidado;311;MATO GROSSO
+2020/07;Desmatamento Consolidado;995;PARÁ
+2020/07;Desmatamento Consolidado;167;RONDÔNIA
+2020/07;Desmatamento Consolidado;1;RORAIMA
+2020/07;Desmatamento Consolidado;24;TOCANTINS
+2020/07;Desmatamento Recente;207;ACRE
+2020/07;Desmatamento Recente;1167;AMAZONAS
+2020/07;Desmatamento Recente;41;MARANHÃO
+2020/07;Desmatamento Recente;407;MATO GROSSO
+2020/07;Desmatamento Recente;1098;PARÁ
+2020/07;Desmatamento Recente;167;RONDÔNIA
+2020/07;Desmatamento Recente;1;RORAIMA
+2020/07;Floresta;29;ACRE
+2020/07;Floresta;218;AMAZONAS
+2020/07;Floresta;6;MARANHÃO
+2020/07;Floresta;78;MATO GROSSO
+2020/07;Floresta;158;PARÁ
+2020/07;Floresta;39;RONDÔNIA
+2020/07;Floresta;2;RORAIMA
+2020/07;Outros;1;AMAPÁ
+2020/07;Outros;11;AMAZONAS
+2020/07;Outros;8;MARANHÃO
+2020/07;Outros;119;MATO GROSSO
+2020/07;Outros;79;PARÁ
+2020/07;Outros;28;RONDÔNIA
+2020/07;Outros;5;RORAIMA
+2020/07;Outros;5;TOCANTINS
+2020/07;Vegetacao Secundaria;24;ACRE
+2020/07;Vegetacao Secundaria;204;AMAZONAS
+2020/07;Vegetacao Secundaria;43;MARANHÃO
+2020/07;Vegetacao Secundaria;35;MATO GROSSO
+2020/07;Vegetacao Secundaria;357;PARÁ
+2020/07;Vegetacao Secundaria;27;RONDÔNIA
+2020/07;Vegetacao Secundaria;2;TOCANTINS
+2020/08;Desmatamento Consolidado;598;ACRE
+2020/08;Desmatamento Consolidado;4;AMAPÁ
+2020/08;Desmatamento Consolidado;1567;AMAZONAS
+2020/08;Desmatamento Consolidado;179;MARANHÃO
+2020/08;Desmatamento Consolidado;931;MATO GROSSO
+2020/08;Desmatamento Consolidado;2890;PARÁ
+2020/08;Desmatamento Consolidado;561;RONDÔNIA
+2020/08;Desmatamento Consolidado;1;RORAIMA
+2020/08;Desmatamento Consolidado;48;TOCANTINS
+2020/08;Desmatamento Recente;2413;ACRE
+2020/08;Desmatamento Recente;2;AMAPÁ
+2020/08;Desmatamento Recente;4803;AMAZONAS
+2020/08;Desmatamento Recente;56;MARANHÃO
+2020/08;Desmatamento Recente;1740;MATO GROSSO
+2020/08;Desmatamento Recente;6401;PARÁ
+2020/08;Desmatamento Recente;1972;RONDÔNIA
+2020/08;Desmatamento Recente;1;RORAIMA
+2020/08;Desmatamento Recente;3;TOCANTINS
+2020/08;Floresta;344;ACRE
+2020/08;Floresta;7;AMAPÁ
+2020/08;Floresta;905;AMAZONAS
+2020/08;Floresta;3;MARANHÃO
+2020/08;Floresta;411;MATO GROSSO
+2020/08;Floresta;786;PARÁ
+2020/08;Floresta;216;RONDÔNIA
+2020/08;Floresta;1;RORAIMA
+2020/08;Floresta;2;TOCANTINS
+2020/08;Outros;3;AMAPÁ
+2020/08;Outros;114;AMAZONAS
+2020/08;Outros;12;MARANHÃO
+2020/08;Outros;162;MATO GROSSO
+2020/08;Outros;217;PARÁ
+2020/08;Outros;145;RONDÔNIA
+2020/08;Outros;10;RORAIMA
+2020/08;Outros;8;TOCANTINS
+2020/08;Vegetacao Secundaria;223;ACRE
+2020/08;Vegetacao Secundaria;641;AMAZONAS
+2020/08;Vegetacao Secundaria;65;MARANHÃO
+2020/08;Vegetacao Secundaria;92;MATO GROSSO
+2020/08;Vegetacao Secundaria;571;PARÁ
+2020/08;Vegetacao Secundaria;192;RONDÔNIA
+2020/08;Vegetacao Secundaria;1;RORAIMA
+2020/08;Vegetacao Secundaria;6;TOCANTINS
+2020/09;Desmatamento Consolidado;567;ACRE
+2020/09;Desmatamento Consolidado;16;AMAPÁ
+2020/09;Desmatamento Consolidado;1020;AMAZONAS
+2020/09;Desmatamento Consolidado;233;MARANHÃO
+2020/09;Desmatamento Consolidado;2670;MATO GROSSO
+2020/09;Desmatamento Consolidado;3940;PARÁ
+2020/09;Desmatamento Consolidado;965;RONDÔNIA
+2020/09;Desmatamento Consolidado;8;RORAIMA
+2020/09;Desmatamento Consolidado;242;TOCANTINS
+2020/09;Desmatamento Recente;2279;ACRE
+2020/09;Desmatamento Recente;5;AMAPÁ
+2020/09;Desmatamento Recente;2343;AMAZONAS
+2020/09;Desmatamento Recente;50;MARANHÃO
+2020/09;Desmatamento Recente;2961;MATO GROSSO
+2020/09;Desmatamento Recente;4429;PARÁ
+2020/09;Desmatamento Recente;2598;RONDÔNIA
+2020/09;Desmatamento Recente;15;RORAIMA
+2020/09;Desmatamento Recente;11;TOCANTINS
+2020/09;Floresta;359;ACRE
+2020/09;Floresta;11;AMAPÁ
+2020/09;Floresta;459;AMAZONAS
+2020/09;Floresta;17;MARANHÃO
+2020/09;Floresta;2013;MATO GROSSO
+2020/09;Floresta;1239;PARÁ
+2020/09;Floresta;226;RONDÔNIA
+2020/09;Floresta;7;RORAIMA
+2020/09;Floresta;6;TOCANTINS
+2020/09;Outros;47;AMAPÁ
+2020/09;Outros;61;AMAZONAS
+2020/09;Outros;40;MARANHÃO
+2020/09;Outros;531;MATO GROSSO
+2020/09;Outros;639;PARÁ
+2020/09;Outros;154;RONDÔNIA
+2020/09;Outros;31;RORAIMA
+2020/09;Outros;10;TOCANTINS
+2020/09;Vegetacao Secundaria;152;ACRE
+2020/09;Vegetacao Secundaria;5;AMAPÁ
+2020/09;Vegetacao Secundaria;387;AMAZONAS
+2020/09;Vegetacao Secundaria;81;MARANHÃO
+2020/09;Vegetacao Secundaria;291;MATO GROSSO
+2020/09;Vegetacao Secundaria;629;PARÁ
+2020/09;Vegetacao Secundaria;255;RONDÔNIA
+2020/09;Vegetacao Secundaria;1;RORAIMA
+2020/09;Vegetacao Secundaria;14;TOCANTINS
+2020/10;Desmatamento Consolidado;341;ACRE
+2020/10;Desmatamento Consolidado;124;AMAPÁ
+2020/10;Desmatamento Consolidado;318;AMAZONAS
+2020/10;Desmatamento Consolidado;469;MARANHÃO
+2020/10;Desmatamento Consolidado;942;MATO GROSSO
+2020/10;Desmatamento Consolidado;2815;PARÁ
+2020/10;Desmatamento Consolidado;623;RONDÔNIA
+2020/10;Desmatamento Consolidado;17;RORAIMA
+2020/10;Desmatamento Consolidado;69;TOCANTINS
+2020/10;Desmatamento Recente;1137;ACRE
+2020/10;Desmatamento Recente;49;AMAPÁ
+2020/10;Desmatamento Recente;639;AMAZONAS
+2020/10;Desmatamento Recente;89;MARANHÃO
+2020/10;Desmatamento Recente;846;MATO GROSSO
+2020/10;Desmatamento Recente;3539;PARÁ
+2020/10;Desmatamento Recente;1320;RONDÔNIA
+2020/10;Desmatamento Recente;32;RORAIMA
+2020/10;Desmatamento Recente;1;TOCANTINS
+2020/10;Floresta;78;ACRE
+2020/10;Floresta;117;AMAPÁ
+2020/10;Floresta;124;AMAZONAS
+2020/10;Floresta;32;MARANHÃO
+2020/10;Floresta;377;MATO GROSSO
+2020/10;Floresta;468;PARÁ
+2020/10;Floresta;136;RONDÔNIA
+2020/10;Floresta;17;RORAIMA
+2020/10;Outros;208;AMAPÁ
+2020/10;Outros;30;AMAZONAS
+2020/10;Outros;63;MARANHÃO
+2020/10;Outros;176;MATO GROSSO
+2020/10;Outros;363;PARÁ
+2020/10;Outros;194;RONDÔNIA
+2020/10;Outros;45;RORAIMA
+2020/10;Outros;2;TOCANTINS
+2020/10;Vegetacao Secundaria;96;ACRE
+2020/10;Vegetacao Secundaria;29;AMAPÁ
+2020/10;Vegetacao Secundaria;154;AMAZONAS
+2020/10;Vegetacao Secundaria;102;MARANHÃO
+2020/10;Vegetacao Secundaria;130;MATO GROSSO
+2020/10;Vegetacao Secundaria;867;PARÁ
+2020/10;Vegetacao Secundaria;140;RONDÔNIA
+2020/10;Vegetacao Secundaria;2;RORAIMA
+2020/10;Vegetacao Secundaria;6;TOCANTINS
+2020/11;Desmatamento Consolidado;30;ACRE
+2020/11;Desmatamento Consolidado;21;AMAPÁ
+2020/11;Desmatamento Consolidado;120;AMAZONAS
+2020/11;Desmatamento Consolidado;766;MARANHÃO
+2020/11;Desmatamento Consolidado;454;MATO GROSSO
+2020/11;Desmatamento Consolidado;1307;PARÁ
+2020/11;Desmatamento Consolidado;189;RONDÔNIA
+2020/11;Desmatamento Consolidado;3;RORAIMA
+2020/11;Desmatamento Consolidado;41;TOCANTINS
+2020/11;Desmatamento Recente;88;ACRE
+2020/11;Desmatamento Recente;7;AMAPÁ
+2020/11;Desmatamento Recente;165;AMAZONAS
+2020/11;Desmatamento Recente;106;MARANHÃO
+2020/11;Desmatamento Recente;298;MATO GROSSO
+2020/11;Desmatamento Recente;915;PARÁ
+2020/11;Desmatamento Recente;217;RONDÔNIA
+2020/11;Desmatamento Recente;2;RORAIMA
+2020/11;Desmatamento Recente;2;TOCANTINS
+2020/11;Floresta;6;ACRE
+2020/11;Floresta;11;AMAPÁ
+2020/11;Floresta;35;AMAZONAS
+2020/11;Floresta;4;MARANHÃO
+2020/11;Floresta;88;MATO GROSSO
+2020/11;Floresta;95;PARÁ
+2020/11;Floresta;30;RONDÔNIA
+2020/11;Floresta;1;RORAIMA
+2020/11;Floresta;1;TOCANTINS
+2020/11;Outros;35;AMAPÁ
+2020/11;Outros;10;AMAZONAS
+2020/11;Outros;46;MARANHÃO
+2020/11;Outros;74;MATO GROSSO
+2020/11;Outros;84;PARÁ
+2020/11;Outros;42;RONDÔNIA
+2020/11;Outros;13;RORAIMA
+2020/11;Outros;3;TOCANTINS
+2020/11;Vegetacao Secundaria;5;ACRE
+2020/11;Vegetacao Secundaria;2;AMAPÁ
+2020/11;Vegetacao Secundaria;44;AMAZONAS
+2020/11;Vegetacao Secundaria;313;MARANHÃO
+2020/11;Vegetacao Secundaria;43;MATO GROSSO
+2020/11;Vegetacao Secundaria;569;PARÁ
+2020/11;Vegetacao Secundaria;31;RONDÔNIA
+2020/11;Vegetacao Secundaria;5;TOCANTINS
+2020/12;Desmatamento Consolidado;2;ACRE
+2020/12;Desmatamento Consolidado;19;AMAPÁ
+2020/12;Desmatamento Consolidado;65;AMAZONAS
+2020/12;Desmatamento Consolidado;313;MARANHÃO
+2020/12;Desmatamento Consolidado;175;MATO GROSSO
+2020/12;Desmatamento Consolidado;951;PARÁ
+2020/12;Desmatamento Consolidado;66;RONDÔNIA
+2020/12;Desmatamento Consolidado;14;RORAIMA
+2020/12;Desmatamento Consolidado;15;TOCANTINS
+2020/12;Desmatamento Recente;9;ACRE
+2020/12;Desmatamento Recente;4;AMAPÁ
+2020/12;Desmatamento Recente;71;AMAZONAS
+2020/12;Desmatamento Recente;61;MARANHÃO
+2020/12;Desmatamento Recente;140;MATO GROSSO
+2020/12;Desmatamento Recente;707;PARÁ
+2020/12;Desmatamento Recente;52;RONDÔNIA
+2020/12;Desmatamento Recente;17;RORAIMA
+2020/12;Desmatamento Recente;6;TOCANTINS
+2020/12;Floresta;6;AMAPÁ
+2020/12;Floresta;11;AMAZONAS
+2020/12;Floresta;3;MARANHÃO
+2020/12;Floresta;7;MATO GROSSO
+2020/12;Floresta;63;PARÁ
+2020/12;Floresta;7;RONDÔNIA
+2020/12;Floresta;4;RORAIMA
+2020/12;Outros;4;AMAPÁ
+2020/12;Outros;7;AMAZONAS
+2020/12;Outros;14;MARANHÃO
+2020/12;Outros;15;MATO GROSSO
+2020/12;Outros;56;PARÁ
+2020/12;Outros;5;RONDÔNIA
+2020/12;Outros;20;RORAIMA
+2020/12;Vegetacao Secundaria;5;AMAPÁ
+2020/12;Vegetacao Secundaria;21;AMAZONAS
+2020/12;Vegetacao Secundaria;102;MARANHÃO
+2020/12;Vegetacao Secundaria;20;MATO GROSSO
+2020/12;Vegetacao Secundaria;407;PARÁ
+2020/12;Vegetacao Secundaria;14;RONDÔNIA
+2020/12;Vegetacao Secundaria;3;RORAIMA
+2020/12;Vegetacao Secundaria;3;TOCANTINS
+2019/08;Desmatamento Consolidado;553;ACRE
+2019/08;Desmatamento Consolidado;3;AMAPÁ
+2019/08;Desmatamento Consolidado;1629;AMAZONAS
+2019/08;Desmatamento Consolidado;115;MARANHÃO
+2019/08;Desmatamento Consolidado;1444;MATO GROSSO
+2019/08;Desmatamento Consolidado;3421;PARÁ
+2019/08;Desmatamento Consolidado;1303;RONDÔNIA
+2019/08;Desmatamento Consolidado;50;TOCANTINS
+2019/08;Desmatamento Recente;2071;ACRE
+2019/08;Desmatamento Recente;3989;AMAZONAS
+2019/08;Desmatamento Recente;21;MARANHÃO
+2019/08;Desmatamento Recente;2710;MATO GROSSO
+2019/08;Desmatamento Recente;5134;PARÁ
+2019/08;Desmatamento Recente;3472;RONDÔNIA
+2019/08;Desmatamento Recente;3;RORAIMA
+2019/08;Desmatamento Recente;3;TOCANTINS
+2019/08;Floresta;236;ACRE
+2019/08;Floresta;2;AMAPÁ
+2019/08;Floresta;511;AMAZONAS
+2019/08;Floresta;1;MARANHÃO
+2019/08;Floresta;454;MATO GROSSO
+2019/08;Floresta;696;PARÁ
+2019/08;Floresta;274;RONDÔNIA
+2019/08;Floresta;2;RORAIMA
+2019/08;Floresta;1;TOCANTINS
+2019/08;Outros;16;AMAPÁ
+2019/08;Outros;56;AMAZONAS
+2019/08;Outros;11;MARANHÃO
+2019/08;Outros;303;MATO GROSSO
+2019/08;Outros;318;PARÁ
+2019/08;Outros;185;RONDÔNIA
+2019/08;Outros;3;TOCANTINS
+2019/08;Vegetacao Secundaria;191;ACRE
+2019/08;Vegetacao Secundaria;483;AMAZONAS
+2019/08;Vegetacao Secundaria;45;MARANHÃO
+2019/08;Vegetacao Secundaria;212;MATO GROSSO
+2019/08;Vegetacao Secundaria;616;PARÁ
+2019/08;Vegetacao Secundaria;358;RONDÔNIA
+2019/08;Vegetacao Secundaria;5;TOCANTINS
+2019/09;Desmatamento Consolidado;491;ACRE
+2019/09;Desmatamento Consolidado;16;AMAPÁ
+2019/09;Desmatamento Consolidado;773;AMAZONAS
+2019/09;Desmatamento Consolidado;138;MARANHÃO
+2019/09;Desmatamento Consolidado;1678;MATO GROSSO
+2019/09;Desmatamento Consolidado;1809;PARÁ
+2019/09;Desmatamento Consolidado;964;RONDÔNIA
+2019/09;Desmatamento Consolidado;1;RORAIMA
+2019/09;Desmatamento Consolidado;24;TOCANTINS
+2019/09;Desmatamento Recente;2048;ACRE
+2019/09;Desmatamento Recente;5;AMAPÁ
+2019/09;Desmatamento Recente;1647;AMAZONAS
+2019/09;Desmatamento Recente;17;MARANHÃO
+2019/09;Desmatamento Recente;2145;MATO GROSSO
+2019/09;Desmatamento Recente;1793;PARÁ
+2019/09;Desmatamento Recente;2195;RONDÔNIA
+2019/09;Desmatamento Recente;11;RORAIMA
+2019/09;Desmatamento Recente;2;TOCANTINS
+2019/09;Floresta;287;ACRE
+2019/09;Floresta;16;AMAPÁ
+2019/09;Floresta;288;AMAZONAS
+2019/09;Floresta;25;MARANHÃO
+2019/09;Floresta;822;MATO GROSSO
+2019/09;Floresta;425;PARÁ
+2019/09;Floresta;158;RONDÔNIA
+2019/09;Floresta;4;RORAIMA
+2019/09;Outros;95;AMAPÁ
+2019/09;Outros;45;AMAZONAS
+2019/09;Outros;46;MARANHÃO
+2019/09;Outros;336;MATO GROSSO
+2019/09;Outros;320;PARÁ
+2019/09;Outros;74;RONDÔNIA
+2019/09;Outros;7;RORAIMA
+2019/09;Outros;12;TOCANTINS
+2019/09;Vegetacao Secundaria;151;ACRE
+2019/09;Vegetacao Secundaria;6;AMAPÁ
+2019/09;Vegetacao Secundaria;273;AMAZONAS
+2019/09;Vegetacao Secundaria;65;MARANHÃO
+2019/09;Vegetacao Secundaria;184;MATO GROSSO
+2019/09;Vegetacao Secundaria;271;PARÁ
+2019/09;Vegetacao Secundaria;253;RONDÔNIA
+2019/09;Vegetacao Secundaria;3;RORAIMA
+2019/09;Vegetacao Secundaria;2;TOCANTINS
+2019/10;Desmatamento Consolidado;84;ACRE
+2019/10;Desmatamento Consolidado;109;AMAPÁ
+2019/10;Desmatamento Consolidado;174;AMAZONAS
+2019/10;Desmatamento Consolidado;514;MARANHÃO
+2019/10;Desmatamento Consolidado;513;MATO GROSSO
+2019/10;Desmatamento Consolidado;1343;PARÁ
+2019/10;Desmatamento Consolidado;199;RONDÔNIA
+2019/10;Desmatamento Consolidado;11;RORAIMA
+2019/10;Desmatamento Consolidado;30;TOCANTINS
+2019/10;Desmatamento Recente;233;ACRE
+2019/10;Desmatamento Recente;58;AMAPÁ
+2019/10;Desmatamento Recente;234;AMAZONAS
+2019/10;Desmatamento Recente;110;MARANHÃO
+2019/10;Desmatamento Recente;347;MATO GROSSO
+2019/10;Desmatamento Recente;1760;PARÁ
+2019/10;Desmatamento Recente;279;RONDÔNIA
+2019/10;Desmatamento Recente;6;RORAIMA
+2019/10;Desmatamento Recente;2;TOCANTINS
+2019/10;Floresta;12;ACRE
+2019/10;Floresta;128;AMAPÁ
+2019/10;Floresta;55;AMAZONAS
+2019/10;Floresta;23;MARANHÃO
+2019/10;Floresta;33;MATO GROSSO
+2019/10;Floresta;167;PARÁ
+2019/10;Floresta;17;RONDÔNIA
+2019/10;Floresta;12;RORAIMA
+2019/10;Outros;218;AMAPÁ
+2019/10;Outros;11;AMAZONAS
+2019/10;Outros;38;MARANHÃO
+2019/10;Outros;84;MATO GROSSO
+2019/10;Outros;164;PARÁ
+2019/10;Outros;16;RONDÔNIA
+2019/10;Outros;22;RORAIMA
+2019/10;Outros;4;TOCANTINS
+2019/10;Vegetacao Secundaria;25;ACRE
+2019/10;Vegetacao Secundaria;27;AMAPÁ
+2019/10;Vegetacao Secundaria;74;AMAZONAS
+2019/10;Vegetacao Secundaria;176;MARANHÃO
+2019/10;Vegetacao Secundaria;53;MATO GROSSO
+2019/10;Vegetacao Secundaria;436;PARÁ
+2019/10;Vegetacao Secundaria;45;RONDÔNIA
+2019/10;Vegetacao Secundaria;2;RORAIMA
+2019/10;Vegetacao Secundaria;7;TOCANTINS
+2019/11;Desmatamento Consolidado;10;ACRE
+2019/11;Desmatamento Consolidado;94;AMAPÁ
+2019/11;Desmatamento Consolidado;187;AMAZONAS
+2019/11;Desmatamento Consolidado;1054;MARANHÃO
+2019/11;Desmatamento Consolidado;416;MATO GROSSO
+2019/11;Desmatamento Consolidado;2741;PARÁ
+2019/11;Desmatamento Consolidado;90;RONDÔNIA
+2019/11;Desmatamento Consolidado;4;RORAIMA
+2019/11;Desmatamento Consolidado;30;TOCANTINS
+2019/11;Desmatamento Recente;26;ACRE
+2019/11;Desmatamento Recente;68;AMAPÁ
+2019/11;Desmatamento Recente;223;AMAZONAS
+2019/11;Desmatamento Recente;213;MARANHÃO
+2019/11;Desmatamento Recente;178;MATO GROSSO
+2019/11;Desmatamento Recente;3059;PARÁ
+2019/11;Desmatamento Recente;140;RONDÔNIA
+2019/11;Desmatamento Recente;9;RORAIMA
+2019/11;Desmatamento Recente;5;TOCANTINS
+2019/11;Floresta;3;ACRE
+2019/11;Floresta;113;AMAPÁ
+2019/11;Floresta;55;AMAZONAS
+2019/11;Floresta;21;MARANHÃO
+2019/11;Floresta;24;MATO GROSSO
+2019/11;Floresta;294;PARÁ
+2019/11;Floresta;6;RONDÔNIA
+2019/11;Floresta;6;RORAIMA
+2019/11;Outros;192;AMAPÁ
+2019/11;Outros;16;AMAZONAS
+2019/11;Outros;69;MARANHÃO
+2019/11;Outros;47;MATO GROSSO
+2019/11;Outros;147;PARÁ
+2019/11;Outros;10;RONDÔNIA
+2019/11;Outros;37;RORAIMA
+2019/11;Outros;2;TOCANTINS
+2019/11;Vegetacao Secundaria;5;ACRE
+2019/11;Vegetacao Secundaria;36;AMAPÁ
+2019/11;Vegetacao Secundaria;92;AMAZONAS
+2019/11;Vegetacao Secundaria;381;MARANHÃO
+2019/11;Vegetacao Secundaria;19;MATO GROSSO
+2019/11;Vegetacao Secundaria;1149;PARÁ
+2019/11;Vegetacao Secundaria;17;RONDÔNIA
+2019/11;Vegetacao Secundaria;2;RORAIMA
+2019/11;Vegetacao Secundaria;7;TOCANTINS
+2019/12;Desmatamento Consolidado;9;AMAPÁ
+2019/12;Desmatamento Consolidado;46;AMAZONAS
+2019/12;Desmatamento Consolidado;532;MARANHÃO
+2019/12;Desmatamento Consolidado;161;MATO GROSSO
+2019/12;Desmatamento Consolidado;787;PARÁ
+2019/12;Desmatamento Consolidado;27;RONDÔNIA
+2019/12;Desmatamento Consolidado;5;RORAIMA
+2019/12;Desmatamento Consolidado;25;TOCANTINS
+2019/12;Desmatamento Recente;1;ACRE
+2019/12;Desmatamento Recente;5;AMAPÁ
+2019/12;Desmatamento Recente;69;AMAZONAS
+2019/12;Desmatamento Recente;92;MARANHÃO
+2019/12;Desmatamento Recente;106;MATO GROSSO
+2019/12;Desmatamento Recente;556;PARÁ
+2019/12;Desmatamento Recente;29;RONDÔNIA
+2019/12;Desmatamento Recente;3;RORAIMA
+2019/12;Desmatamento Recente;4;TOCANTINS
+2019/12;Floresta;13;AMAPÁ
+2019/12;Floresta;19;AMAZONAS
+2019/12;Floresta;6;MARANHÃO
+2019/12;Floresta;8;MATO GROSSO
+2019/12;Floresta;78;PARÁ
+2019/12;Floresta;2;RONDÔNIA
+2019/12;Floresta;3;RORAIMA
+2019/12;Outros;39;AMAPÁ
+2019/12;Outros;4;AMAZONAS
+2019/12;Outros;51;MARANHÃO
+2019/12;Outros;38;MATO GROSSO
+2019/12;Outros;71;PARÁ
+2019/12;Outros;5;RONDÔNIA
+2019/12;Outros;25;RORAIMA
+2019/12;Vegetacao Secundaria;1;AMAPÁ
+2019/12;Vegetacao Secundaria;25;AMAZONAS
+2019/12;Vegetacao Secundaria;159;MARANHÃO
+2019/12;Vegetacao Secundaria;10;MATO GROSSO
+2019/12;Vegetacao Secundaria;253;PARÁ
+2019/12;Vegetacao Secundaria;2;RONDÔNIA
+2019/12;Vegetacao Secundaria;6;TOCANTINS
