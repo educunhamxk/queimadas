@@ -8,7 +8,7 @@ from sklearn.pipeline import Pipeline
 
 
 #configuração da página
-st.set_page_config(page_title="As queimadas associadas a desmatamento estão aumentando na gestão do Lula?", page_icon=":smiley:", layout="centered", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Queimadas", page_icon="🔥", layout="centered", initial_sidebar_state="collapsed")
 
 #definição do tema
 st.markdown("""
