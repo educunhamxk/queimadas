@@ -287,10 +287,10 @@ df_projecao['focuses'] = ypred['prediction_label']
 df_projecao_agrupado = df_projecao.groupby(['ano', 'mes'])['focuses'].sum().reset_index()
 df_projecao_agrupado = df_projecao_agrupado.rename(columns={'mes':'mês'})
 comparativo_ano = comparativo_ano[(comparativo_ano['ano']<2023) | (comparativo_ano['mês']<5)]
-# comparativo_ano = comparativo_ano.append(df_projecao_agrupado)
-# comparativo_ano = comparativo_ano[comparativo_ano['mês']<6]
+comparativo_ano = comparativo_ano.append(df_projecao_agrupado)
+comparativo_ano = comparativo_ano[comparativo_ano['mês']<6]
 
-# # Cria o gráfico de barras
+# Cria o gráfico de barras
 # fig8, ax8 = plt.subplots(figsize=(10,6))
 
 # # Define a largura das barras
