@@ -273,57 +273,57 @@ df_projecao = pd.read_csv("dados_queimadas_previsao.csv")
 
 
 #botão projetar
-# if st.button("Projetar"):
+if st.button("Projetar"):
 
-#carregamento / instanciamento do modelo pkl
-mdl_lgbm = load_model('./pycaret_mdl_xg')
+    #carregamento / instanciamento do modelo pkl
+    mdl_lgbm = load_model('./pycaret_mdl_xg')
 
-#Acessando o modelo LGBMClassifier
-lgbm_model = mdl_lgbm.named_steps['trained_model']
+    #Acessando o modelo LGBMClassifier
+    lgbm_model = mdl_lgbm.named_steps['trained_model']
 
-#predict do modelo
-ypred = predict_model(mdl_lgbm, data = df_projecao)
-df_projecao['focuses'] = ypred['prediction_label']
+    #predict do modelo
+    ypred = predict_model(mdl_lgbm, data = df_projecao)
+    df_projecao['focuses'] = ypred['prediction_label']
 
-#Gráfico Projeção
-df_projecao_agrupado = df_projecao.groupby(['ano', 'mes'])['focuses'].sum().reset_index()
-df_projecao_agrupado = df_projecao_agrupado.rename(columns={'mes':'mês'})
-comparativo_ano = comparativo_ano[(comparativo_ano['ano']<2023) | (comparativo_ano['mês']<5)]
-comparativo_ano = pd.concat([comparativo_ano, df_projecao_agrupado], ignore_index=True)
-comparativo_ano = comparativo_ano[comparativo_ano['mês']<6]
+    #Gráfico Projeção
+    df_projecao_agrupado = df_projecao.groupby(['ano', 'mes'])['focuses'].sum().reset_index()
+    df_projecao_agrupado = df_projecao_agrupado.rename(columns={'mes':'mês'})
+    comparativo_ano = comparativo_ano[(comparativo_ano['ano']<2023) | (comparativo_ano['mês']<5)]
+    comparativo_ano = pd.concat([comparativo_ano, df_projecao_agrupado], ignore_index=True)
+    comparativo_ano = comparativo_ano[comparativo_ano['mês']<6]
 
-# Cria o gráfico de barras
-fig8, ax8 = plt.subplots(figsize=(10,6))
+    # Cria o gráfico de barras
+    fig8, ax8 = plt.subplots(figsize=(10,6))
 
-# Define a largura das barras
-bar_width = 0.2
+    # Define a largura das barras
+    bar_width = 0.2
 
-# Cria o gráfico para cada ano
-for i, ano in enumerate(comparativo_ano['ano'].unique()):
-    df_ano_ini = comparativo_ano[comparativo_ano['ano'] == ano]
-    # Adiciona um valor constante ao argumento `x` do método `bar` para ajustar a posição das barras
-    bars = ax8.bar(df_ano_ini['mês'] + i*bar_width, df_ano_ini['focuses'], 
-            color=colors[ano], label=ano, width=bar_width)
+    # Cria o gráfico para cada ano
+    for i, ano in enumerate(comparativo_ano['ano'].unique()):
+        df_ano_ini = comparativo_ano[comparativo_ano['ano'] == ano]
+        # Adiciona um valor constante ao argumento `x` do método `bar` para ajustar a posição das barras
+        bars = ax8.bar(df_ano_ini['mês'] + i*bar_width, df_ano_ini['focuses'], 
+                color=colors[ano], label=ano, width=bar_width)
 
-    # Adiciona rótulos nas barras
-    for bar in bars:
-        yval = bar.get_height()
-        ax8.text(bar.get_x() + bar.get_width()/2, yval, int(yval), 
-                 ha='center', va='bottom', fontsize=10)
+        # Adiciona rótulos nas barras
+        for bar in bars:
+            yval = bar.get_height()
+            ax8.text(bar.get_x() + bar.get_width()/2, yval, int(yval), 
+                     ha='center', va='bottom', fontsize=10)
 
-# Legendas e títulos
-#ax7.set_xlabel('Mês')
-ax8.set_ylabel('Qtd Queimadas')
-ax8.legend()
+    # Legendas e títulos
+    #ax7.set_xlabel('Mês')
+    ax8.set_ylabel('Qtd Queimadas')
+    ax8.legend()
 
-# Define os ticks do eixo X para corresponderem ao meio das barras e define os rótulos dos ticks como os meses
-ax8.set_xticks([1 + bar_width/2, 2 + bar_width/2, 3 + bar_width/2, 4 + bar_width/2, 5 + bar_width/2])
-ax8.set_xticklabels(['Janeiro', 'Fevereiro', 'Março', 'Abril','Maio'])
+    # Define os ticks do eixo X para corresponderem ao meio das barras e define os rótulos dos ticks como os meses
+    ax8.set_xticks([1 + bar_width/2, 2 + bar_width/2, 3 + bar_width/2, 4 + bar_width/2, 5 + bar_width/2])
+    ax8.set_xticklabels(['Janeiro', 'Fevereiro', 'Março', 'Abril','Maio'])
 
-plt.tight_layout()
-st.pyplot(fig8)
+    plt.tight_layout()
+    st.pyplot(fig8)
 
-st.markdown("Como podemos ver, a projeção indica que iniciaremos o mês de Maio com um pico menor que o ano passado mas maior do que 2020 e 2021. A grande diferença que notamos com estes dois anos é um possível deslocamento do início do pico das queimadas para Maio em 22 e 23, enquanto em 20 e 21, esse período ocorreu de forma mais tardia.")
+    st.markdown("Como podemos ver, a projeção indica que iniciaremos o mês de Maio com um pico menor que o ano passado mas maior do que 2020 e 2021. A grande diferença que notamos com estes dois anos é um possível deslocamento do início do pico das queimadas para Maio em 22 e 23, enquanto em 20 e 21, esse período ocorreu de forma mais tardia.")
 
 
 
