@@ -5,11 +5,10 @@ import seaborn as sns
 import pycaret
 from pycaret.regression import *
 from sklearn.pipeline import Pipeline
-import numpy as np
-import gdown
+
 
 #configuração da página
-st.set_page_config(page_title="Desmatamento", page_icon="🌳", layout="centered", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Queimadas", page_icon="🔥", layout="centered", initial_sidebar_state="collapsed")
 
 #definição do tema
 st.markdown("""
@@ -22,364 +21,309 @@ body {
     """, unsafe_allow_html=True)
 
 #título
-st.title("Como serão os números de desmatamento agora na gestão do Lula em 2023? E como seria se o Bolsonaro tivesse sido eleito?")
+st.title("As queimadas associadas ao desmatamento estão aumentando na gestão do Lula?")
 
 #exibir imagem tema do lula
-st.image("desmatamento.png")
+st.image("lula_queimada.png")
 
 #texto
-st.markdown("Há muita expectativa com a gestão do Lula no que se diz respeito ao desmatamento, já que este foi um dos principais alvos da campanha de Lula contra Bolsonaro nos debates eleitorais. O objetivo do projeto é entender os números gerais do desmatamento da Amazônia Legal ao longo dos últimos anos, entender qual foi impacto do governo Bolsonaro nestes números e prever tanto como será o desmatamento para 2023 na gestão de Lula, como prever caso o Bolsonaro tivesse sido eleito.")
+st.markdown("Durante as eleições, as questões ambientais, em especial o desmatamento, estiveram entre os temas mais discutidos. Essa questão foi alvo de críticas intensas durante a gestão de Bolsonaro, e figurou como uma das principais promessas de campanha de Lula. Alguns meses se passaram desde então, como está a situação agora? O propósito deste estudo é avaliar um ponto específico do desmatamento, os números gerais de queimadas associadas ao recente desflorestamento. Embora as queimadas possam ter algumas causas que escapam do controle das políticas públicas, sabemos que parte está ligada às ações intencionais do homem, principalmente com a finalidade de usar as terras para atividades agrícolas ou pastoris. Dessa forma, pretendemos analisar e contrastar os números de queimadas durante a gestão de ambos os presidentes. Além disso, pretendemos utilizar técnicas de Machine Learning para prever os números de queimadas no mês seguinte, contribuindo para estratégias de prevenção e controle desses incidentes.")
 
 #1º Bloco************************************************************************************************************************
-st.subheader("Análises Preliminares")
+st.subheader("Análises Preliminares - Queimadas")
 
-st.markdown("O primeiro passo do estudo é entender os números gerais de incremento de desmatamento, analisando por estado, ano e governo. Os dados consideram incrementos a partir de 2008.")
+st.markdown("O primeiro passo do estudo é entender os números gerais das queimadas por estado, ao longo dos últimos meses e a representatividade que cada mês possui nas queimadas para avaliarmos a sazonalidade. Abaixo há um filtro de estado que permite verificar dados de localidades específcas.")
 
-#impor do arquivo
-df = pd.read_csv("desmatamento.csv")
-#df['date'] = pd.to_datetime(df['date'])
-#st.write(df.columns)
+df = pd.read_csv("dados_queimadas.csv",delimiter=";")
+#convertendo 'date' para datetime
+df['date'] = pd.to_datetime(df['date'])
 
-#Marcação do governo de acordo com o ano
-def marcar_governo(year):
-    if year < 2011:
-        return 'Lula'
-    elif 2011 <= year <= 2014:
-        return 'Dilma1'
-    elif 2015 <= year < 2017:
-        return 'Dilma2'
-    elif 2017 <= year <= 2018:
-        return 'Temer'
-    elif 2018 <= year <= 2022:
-        return 'Bolsonaro'
-    else:
-        return 'Desconhecido' 
-    
-df['governo'] = df['year'].apply(marcar_governo)
-
-
-# Ordenar os dados por estado, município, geocode_ibge e ano
-df = df.sort_values(['state', 'municipality', 'geocode_ibge', 'year'])
-
-# Calcular a diferença ano a ano no desmatamento por cada combinação única de estado, município e geocode_ibge
-df['delta_areakm'] = df.groupby(['state', 'municipality', 'geocode_ibge'])['areakm'].diff()
-
-# Preencher NA/NaN valores com 0s (isso ocorrerá para o primeiro ano de cada combinação única, pois não há ano anterior para comparar)
-df['delta_areakm'] = df['delta_areakm'].fillna(0)
-
-df_grafico1 = df.copy()
-
-#divindo a página em dois blocos
-col1, col2, col3 = st.columns(3)
-
-#Filtro de Estado------------------------------------
 #criando um widget de seleção para selecionar o estado
-estados = df_grafico1['state'].unique()
-#estados = [estados.title() for estado in estados] 
-with col1:
-    estado_selecionado = st.selectbox('Selecione um estado:', options=['Todos'] + list(estados))
+states = df['uf'].unique()
+states = [state.title() for state in states] 
+selected_state = st.selectbox('Selecione um estado:', options=['Todos'] + list(states))
 
-    #filtrando os dados pelo estado selecionado
-    if estado_selecionado != 'Todos':
-        df_grafico1 = df_grafico1[df_grafico1['state'] == estado_selecionado]
-
-with col2:
-
-    #Filtro de Ano------------------------------------
-    #criando um widget de seleção para selecionar o estado
-    anos = df_grafico1['year'].unique()
-    ano_selecionado = st.selectbox('Selecione um ano:', options=['Todos'] + list(anos))
-
-    #filtrando os dados pelo ano selecionado
-    if ano_selecionado != 'Todos':
-        df_grafico1 = df_grafico1[df_grafico1['year'] == ano_selecionado]
-
-with col3:
-
-    #Filtro de Ano------------------------------------
-    #criando um widget de seleção para selecionar o estado
-    governos = df_grafico1['governo'].unique()
-    governo_selecionado = st.selectbox('Selecione um governo:', options=['Todos'] + list(governos))
-
-    #filtrando os dados pelo ano selecionado
-    if governo_selecionado != 'Todos':
-        df_grafico1 = df_grafico1[df_grafico1['governo'] == governo_selecionado]
-
+#filtrando os dados pelo estado selecionado
+if selected_state != 'Todos':
+    df = df[df['uf'].str.title() == selected_state]
+    
+#divindo a página em dois blocos
 col1, col2 = st.columns(2)
 
+#extraindo o mês
+df['mes'] = df['date'].dt.month
+
+
 #Primeiro gráfico -----------------------------------------------------------------------
-grupo_uf = df_grafico1.groupby('state')['delta_areakm'].sum().reset_index()
-grupo_uf = grupo_uf.sort_values(by=['delta_areakm'])
+grupo_uf = df.groupby('uf')['focuses'].sum().reset_index()
+grupo_uf = grupo_uf.sort_values(by=['focuses'])
 
 # Usando a primeira coluna para o gráfico
 with col1:
-    fig1, ax1 = plt.subplots(figsize=(6, 5))
-    ax1.barh(grupo_uf['state'], grupo_uf['delta_areakm'])
-    plt.title('Total Incremento de Desmatamento por Estado', fontsize=15)
-    plt.xlabel('Área em Kms')
+    fig1, ax1 = plt.subplots(figsize=(6, 4))
+    ax1.barh(grupo_uf['uf'], grupo_uf['focuses'])
+    plt.title('Total Queimadas por Estado', fontsize=15)
+    plt.xlabel('Mês')
     #plt.ylabel('Total de Queimadas')
-    plt.ticklabel_format(style='plain', axis='x')
     plt.tight_layout()
     st.pyplot(fig1)
     
 #Segundo gráfico -----------------------------------------------------------------------
     
 #agrupando os dados pelo mês e calculando a soma do campo 'focuses'
-# grouped_df = df_grafico1.groupby('governo')['areakm'].sum().reset_index()
+grouped_df = df.groupby('mes')['focuses'].sum().reset_index()
 
-# #criando uma nova figura para o gráfico
-# fig2 = plt.figure(figsize=(6,5))
+#criando uma nova figura para o gráfico
+fig2 = plt.figure(figsize=(6,4))
 
-# #criando um gráfico de barras
-# sns.barplot(x=grouped_df['governo'], y=grouped_df['areakm'], color='blue')
+#criando um gráfico de barras
+sns.barplot(x=grouped_df['mes'], y=grouped_df['focuses'], color='blue')
 
-# #usando a primeira coluna para o gráfico
-# with col2:
-#     fig2, ax2 = plt.subplots(figsize=(6, 5))
-#     ax2.bar(grouped_df['governo'], grouped_df['areakm'])
-#     plt.title('Total Desmatamentos por Ano', fontsize=15)
-#     plt.xlabel('Mês')
-#     plt.tight_layout()
-#     st.pyplot(fig2)
+#usando a primeira coluna para o gráfico
+with col2:
+    fig2, ax2 = plt.subplots(figsize=(6, 4))
+    ax2.bar(grouped_df['mes'], grouped_df['focuses'])
+    plt.title('Total Queimadas por Mês', fontsize=15)
+    plt.xlabel('Mês')
+    plt.tight_layout()
+    st.pyplot(fig2)
     
 
 #Terceiro gráfico -----------------------------------------------------------------------
 
 #agrupando os dados pela data e calcule a soma do campo 'focuses'
-with col2:
-    df_grafico1['year_tratado'] = df_grafico1['year'].astype(str).str.slice(-2)
-    grouped_df = df_grafico1.groupby('year_tratado')['delta_areakm'].sum().reset_index()
-    grouped_df = grouped_df[grouped_df['year_tratado'] != '07']
-
-    #definindo o estilo Seaborn
-    sns.set_theme()
-
-    #cria um gráfico de linha
-    fig3, ax3 = plt.subplots(figsize=(6,5))
-    ax3.plot_date(grouped_df['year_tratado'], grouped_df['delta_areakm'], linestyle='solid', color='blue')
-    ax3.set_title('Histórico Incremento de Desmatamento por Ano', fontsize=15)
-    plt.tight_layout()
-    st.pyplot(fig3)
-    
-
-#df_grafico1['year_tratado'] = df_grafico1['year'].astype(str).str.slice(-2)
-grouped_df = df_grafico1.groupby('governo')['delta_areakm'].sum().reset_index()
-#grouped_df = grouped_df[grouped_df['year_tratado'] != '07']
+grouped_df = df.groupby('date')['focuses'].sum().reset_index()
 
 #definindo o estilo Seaborn
 sns.set_theme()
 
-# Criando um dicionário com cores para cada governo
-cores = {'Lula': 'red', 'Dilma1': 'pink','Dilma2': 'orange', 'Temer': 'gray', 'Bolsonaro': 'green'}
-
-
-# Ordenando o DataFrame pela ordem desejada
-order = ['Lula', 'Dilma1', 'Dilma2', 'Temer', 'Bolsonaro']
-grouped_df['governo'] = pd.Categorical(grouped_df['governo'], categories=order, ordered=True)
-grouped_df = grouped_df.sort_values('governo')
-
-# Criando um gráfico de barras
-fig3, ax3 = plt.subplots(figsize=(10,6))
-barras = ax3.bar(grouped_df['governo'], grouped_df['delta_areakm'], color=[cores[i] for i in grouped_df['governo']])
-ax3.set_title('Histórico Incremento de Desmatamento por Governo', fontsize=15)
-
-# Adicionando rótulos nas barras
-for bar in barras:
-    yval = bar.get_height()
-    ax3.text(bar.get_x() + bar.get_width()/2, yval, int(yval), ha='center', va='bottom')
-
-plt.tight_layout()
+#cria um gráfico de linha
+fig3, ax3 = plt.subplots(figsize=(10,4))
+ax3.plot_date(grouped_df['date'], grouped_df['focuses'], linestyle='solid', color='blue')
+ax3.set_title('Histórico Queimadas', fontsize=12)
 st.pyplot(fig3)
 
+#texto
+st.markdown("Através dos gráficos acima podemos concluir que a região norte é o principal foco do país em relação as queimadas, com exceção do Mato Grosso que aparece com grande representatividade. Outro ponto que podemos concluir é que a sazonalidade das queimadas traz uma dispersão muito grande para os dados, nos períodos de pico próximos a Setembro os casos podem chegar a 30.000, enquanto em períodos como Março os casos ficam abaixo de 2.000. Isso já nos dá alguns indícios de que para comparar de forma mais embasada a gestão dos dois governos no que se diz respeito as queimadas, teremos que aguardar o período de pico deste ano para termos insumos suficientes para fazer a comparação.")
+
+
+#2º Bloco************************************************************************************************************************
+st.subheader("Análises de Variáveis")
 
 #texto
-st.markdown("""Alguns pontos chamam muito atenção nestes gráficos. O primeiro é a representatividade do Pará nos incrementos de áreas desmatadas. De fato ele é o segundo estado que mais abrange a área da Amazônia Legal, mas ele possui mais do que o triplo de área desmatada do Amazonas, que é o estado que mais possui área da Amazônia Legal. Isso provavelmente se deve a facilidade de exploração no estado do Pará em comparação com o Amazonas, por conta do maior desenvolvimento da região.
-            
-Outro ponto de destaque é a evolução de área desmatada ao longo do tempo. Percebemos um pico de incremento em 2008, no governo Lula, e depois disso tivemos seguidos anos de queda até 2012, quando os números começaram a crescer de forma mais tímida no segundo ano de governo da Dilma. Este ritmo se repetiu durante alguns anos.
-            
-Com o Temer os números se estabilizaram. E a partir de 2019, com o governo Bolsonaro, houve um nítido aumento agressivo dos incrementos de desmatamento. Tanto que se somarmos os incrementos do governo Dilma com os de Temer, ficamos apenas um pouco acima dos números que tivemos no governo de Bolsonaro. Ou seja, o que perdemos de Amazônia Legal em um período de 8 anos com Dilma e Temer foi praticamente o mesmo que perdemos em 4 anos de mandato de Bolsonaro.""")
+st.markdown("O próximo passo do estudo é avaliar se variáveis como média de temperatura, média de temperatura máxima e precipitação ao longo do mês se relacionam com a quantidade de queimadas.")
 
-# #2º Bloco************************************************************************************************************************
-st.subheader("Análises dos números dos Estados por Governo Presidencial")
+# Criando um widget de seleção para selecionar a variável a ser analisada
+variaveis = ['Temperatura Máxima', 'Temperatura Média', 'Precipitação']
+variavel_selecionada = st.selectbox('Selecione uma variável:', options=list(variaveis))
+
+df_enriquecido = pd.read_csv("dados_queimadas_enriquecidos.csv")
+df_enriquecido['date'] = pd.to_datetime(df_enriquecido['date'])
+
+#agrupando os dados pela data e calcule a soma do campo 'focuses'
+group_df_variaveis = df_enriquecido.groupby('date').agg({
+    'focuses': 'sum', 
+    'temperature_2m_max': 'mean', 
+    'temperature_2m_mean': 'mean', 
+    'precipitation_sum': 'sum'}).reset_index()
 
 
-
-# Agrupar os dados por estado e governo
-grouped_df = df.groupby(['state', 'governo'])['delta_areakm'].sum().reset_index()
-
-# Reorganizando os dados para o formato que o matplotlib precisa para barras empilhadas
-grouped_df_pivot = grouped_df.pivot(index='state', columns='governo', values='delta_areakm').reset_index()
-grouped_df_pivot = grouped_df_pivot.set_index('state')
-
-# Definindo o estilo Seaborn
+#definindo o estilo Seaborn
 sns.set_theme()
 
-# Definindo as cores para cada governo
-cores = {'Lula': 'red', 'Dilma1': 'pink','Dilma2': 'orange', 'Temer': 'gray', 'Bolsonaro': 'green'}
+fig4, ax4 = plt.subplots(figsize=(10,6))
+color = 'tab:blue'
+ax4.set_ylabel('Queimadas', color=color)
+ax4.plot_date(group_df_variaveis['date'], group_df_variaveis['focuses'],linestyle='solid', color='blue')
 
-# Criando o gráfico de barras empilhadas
-fig3, ax3 = plt.subplots(figsize=(10,6))
-grouped_df_pivot.loc[:, order].plot(kind='bar', stacked=True, color=[cores[i] for i in order], ax=ax3)
-ax3.set_title('Representatividade de cada Governo no Desmatamento por Estado', fontsize=15)
-plt.tight_layout()
 
-# Mostrar o gráfico
-st.pyplot(fig3)
+if variavel_selecionada == "Temperatura Máxima":
+    coluna_variavel = "temperature_2m_max"
+elif variavel_selecionada == "Temperatura Média":
+    coluna_variavel = "temperature_2m_mean"
+elif variavel_selecionada == "Precipitação":
+    coluna_variavel = "precipitation_sum"  
+
+ax5 = ax4.twinx()  
+color = 'tab:red'
+ax5.set_ylabel(variavel_selecionada, color=color)  
+ax5.plot_date(group_df_variaveis['date'], group_df_variaveis[coluna_variavel],linestyle='solid', color='red')
+
+fig4.tight_layout()  
+st.pyplot(fig4)
 
 
 #texto
-st.markdown("""Acima podemos observar a representativade que o governo de Bolsonaro teve nos incrementos de cada Estado. Em praticamente todos os estados ele teve a maior parcela de incremento em relação a outros governos, com exceção do Maranhão.""")
+st.markdown("A análise de variáveis mostra nitidamente que temos uma grande relação de média de temperatura máxima e média de temperatura ao longo do mês com a quantidade de queimadas, e a variável de precipitação mostrou ter uma relação inversa com a quantidade de queimadas, o que já era esperado. De uma forma geral, pelo que vimos até aqui as variáveis naturais possuem forte correlação com as ocorrências de queimadas, o que sugere que as ações intencionais do homem ou não são tão representativas por não ocorrerem tanto em outros períodos ou que estas ações intencionais ocorrem também em períodos que naturalmente já teríamos mais casos de queimadas devido as altas temperaturas e a a baixa umidade.")
 
-# 3º Bloco************************************************************************************************************************
+#3º Bloco************************************************************************************************************************
+st.subheader("Bolsonaro X Lula")
+
+st.markdown("Como foi dito anteriormente, para avaliar o governo Lula quanto a eficácia no combate as queimadas precisaríamos dar mais tempo, porque os períodos em que as queimadas começam a ser mais frequentes é a partir do meio do ano. Contudo, podemos fazer uma análise preliminar avaliando os dados que temos até o momento de Abril de 2023 e compararmos com os mesmos períodos dos últimos anos do governo Bolsonaro, e por fim utilizaremos o modelo preditivo para projetar Maio.")
+
+#convertendo a coluna 'date' para datetime
+df_enriquecido['date'] = pd.to_datetime(df_enriquecido['date'])
+
+#cria as colunas 'year' e 'month'
+df_enriquecido['ano'] = df_enriquecido['date'].dt.year
+df_enriquecido['mês'] = df_enriquecido['date'].dt.month
+
+#agrupa os dados por ano e mês
+comparativo_ano = df_enriquecido.groupby(['ano', 'mês'])['focuses'].sum().reset_index()
+comparativo_ano = comparativo_ano[comparativo_ano['ano'] >= 2020]
+
+#cores para os diferentes anos
+colors = {2020: 'lightblue', 2021: 'blue', 2022: 'darkblue', 2023: 'red'}
+
+#Gráfico 1
+fig6, ax6 = plt.subplots(figsize=(10,6))
+for ano in comparativo_ano[(comparativo_ano['ano']>=2020)]['ano'].unique():
+    df_ano = comparativo_ano[comparativo_ano['ano'] == ano]
+    if ano == 2023:
+        df_ano = df_ano[df_ano['mês'] != 5]
+    ax6.plot(df_ano['mês'], df_ano['focuses'], color=colors[ano], label=ano)
+
+# Legendas e títulos
+ax6.set_xlabel('Mês')
+ax6.set_ylabel('Qtd Queimadas')
+ax6.legend()
+plt.title('Total Queimadas por Mês', fontsize=15)
+plt.tight_layout()
+st.pyplot(fig6)
+    
+#Gráfico 2
+comparativo_ini_ano = comparativo_ano[comparativo_ano['mês'].isin([1, 2, 3, 4])]
+
+#cria o gráfico de barras
+fig7, ax7 = plt.subplots(figsize=(10,6))
+
+#define a largura das barras
+bar_width = 0.2
+
+#cria o gráfico para cada ano
+for i, ano in enumerate(comparativo_ini_ano['ano'].unique()):
+    df_ano_ini = comparativo_ini_ano[comparativo_ini_ano['ano'] == ano]
+    #adiciona um valor constante ao argumento `x` do método `bar` para ajustar a posição das barras
+    bars = ax7.bar(df_ano_ini['mês'] + i*bar_width, df_ano_ini['focuses'], 
+            color=colors[ano], label=ano, width=bar_width)
+    
+    #adiciona rótulos nas barras
+    for bar in bars:
+        yval = bar.get_height()
+        ax7.text(bar.get_x() + bar.get_width()/2, yval, int(yval), 
+                 ha='center', va='bottom', fontsize=10)
+
+#legendas e títulos
+ax7.set_ylabel('Qtd Queimadas')
+
+ax7.legend()
+
+#define os ticks do eixo X para corresponderem ao meio das barras e define os rótulos dos ticks como os meses
+ax7.set_xticks([1 + bar_width/2, 2 + bar_width/2, 3 + bar_width/2, 4 + bar_width/2])
+ax7.set_xticklabels(['Janeiro', 'Fevereiro', 'Março', 'Abril'])
+plt.title('Total Queimadas por Mês', fontsize=15)
+plt.tight_layout()
+st.pyplot(fig7) 
+
+# Gráfico 3 - Barras de valores acumulados por ano até o mês de abril
+#agrupando os dados pelos anos, somando os valores de 'focuses' dos primeiros 4 meses
+fig8, ax8 = plt.subplots(figsize=(10,6))
+comparativo_acum_ano = comparativo_ano[comparativo_ano['mês'].isin([1, 2, 3, 4])]
+comparativo_acum_ano = comparativo_acum_ano.groupby('ano')['focuses'].sum().reset_index()
+
+#define a largura das barras
+bar_width = 0.6
+
+#cria o gráfico para cada ano
+for i, ano in enumerate(comparativo_acum_ano['ano']):
+    #desenha a barra
+    bar = ax8.bar(i, comparativo_acum_ano.loc[i, 'focuses'], 
+            color=colors[ano], label=ano, width=bar_width)
+    
+    #adiciona o valor acima da barra
+    height = bar[0].get_height()
+    ax8.text(bar[0].get_x() + bar[0].get_width()/2,  
+            1.01*height,  
+            '{}'.format(int(height)),  
+            ha='center', va='bottom') 
+
+# Legendas e títulos
+ax8.set_xlabel('Ano')
+ax8.set_ylabel('Qtd Queimadas')
+ax8.legend()
+
+#define os ticks do eixo X para corresponderem ao meio das barras e define os rótulos dos ticks como os anos
+ax8.set_xticks(range(len(comparativo_acum_ano)))
+ax8.set_xticklabels(comparativo_acum_ano['ano'])
+
+plt.tight_layout()
+st.pyplot(fig8)
 
 
-#Projeão Lula
+st.markdown("Até o momento na gestão do governo Lula tivemos menos casos de queimadas acumulados nos 4 primeiros meses do que nos 3 anos anteriores do governo Bolsonaro, mas os meses que serão mais críticos para o governo nesse tema virão agora no meio do ano.")
 
-# #texto
+
+#4º Bloco************************************************************************************************************************
 st.subheader("Modelo preditivo")
 
-st.markdown("Por fim, vamos projetar como será o ano de 2023 com o Lula e como seria caso Bolsonaro fosse eleito.")
+st.markdown("Por fim, vamos projetar como será o mês de Maio, já que ainda não temos estes dados, considerando variáveis históricas de queimadas e metereológicas.")
+
+df_projecao = pd.read_csv("dados_queimadas_previsao.csv")
 
 
+
+#botão projetar
 if st.button("Projetar"):
-    df_projecao_aux = df.copy()
-    df_projecao = df_projecao_aux[['municipality','geocode_ibge','state','governo']].drop_duplicates()
-    df_projecao = df_projecao.drop(columns=['governo'])
-    df_projecao['year'] = 2023
-    df_projecao['governo_Lula'] = 1
-    df_projecao['governo_Dilma'] = 0
-    df_projecao['governo_Temer'] = 0
-    df_projecao['governo_Bolsonaro'] = 0
-    df_projecao_dummies = pd.get_dummies(df_projecao, columns=['state', 'municipality'])
-    
-    
-    
 
-    #url = 'https://drive.google.com/uc?export=download&id=1pqnJpGAkOlPucPYSMvT2rcdQPM1PId8-'
-    #output = 'pycaret_mdl_rf.pkl'
-    #gdown.download(url, output, quiet=False)
-    #mdl_et = load_model('pycaret_mdl_rf')
-    mdl_xgboost = load_model('./pycaret_mdl_xg')
-    xgboost_model = mdl_xgboost.named_steps['trained_model']
+    #carregamento / instanciamento do modelo pkl
+    mdl_lgbm = load_model('./pycaret_mdl_xg')
 
-    ypred = predict_model( xgboost_model, data = df_projecao_dummies)
-    df_projecao_dummies['delta_areakm'] = ypred['prediction_label']
+    #Acessando o modelo LGBMClassifier
+    lgbm_model = mdl_lgbm.named_steps['trained_model']
 
+    #predict do modelo
+    ypred = predict_model(mdl_lgbm, data = df_projecao)
+    df_projecao['focuses'] = ypred['prediction_label']
 
-    # Agrupa os dados por ano e soma os valores de 'areakm'
-    df_projecao_dummies = df_projecao_dummies.drop_duplicates()
-    df_projecao_agrupado = df_projecao_dummies.groupby('year')['delta_areakm'].sum().reset_index()
-    df_agrupado = df.groupby('year')['delta_areakm'].sum().reset_index()
+    #Gráfico Projeção
+    df_projecao_agrupado = df_projecao.groupby(['ano', 'mes'])['focuses'].sum().reset_index()
+    df_projecao_agrupado = df_projecao_agrupado.rename(columns={'mes':'mês'})
+    comparativo_ano = comparativo_ano[(comparativo_ano['ano']<2023) | (comparativo_ano['mês']<5)]
+    comparativo_ano = pd.concat([comparativo_ano, df_projecao_agrupado], ignore_index=True)
+    comparativo_ano = comparativo_ano[comparativo_ano['mês']<6]
 
-    # Concatena os dois DataFrames
-    comparativo_ano = pd.concat([df_agrupado, df_projecao_agrupado], ignore_index=True)
-    comparativo_ano = comparativo_ano[comparativo_ano['year'] != 2007]
     # Cria o gráfico de barras
     fig8, ax8 = plt.subplots(figsize=(10,6))
 
     # Define a largura das barras
     bar_width = 0.2
 
-    # Define uma cor padrão e uma cor destacada
-    default_color = 'blue'
-    highlight_color = 'red'
-
     # Cria o gráfico para cada ano
-    for i, ano in enumerate(comparativo_ano['year'].unique()):
-        df_ano = comparativo_ano[comparativo_ano['year'] == ano]
+    for i, ano in enumerate(comparativo_ano['ano'].unique()):
+        df_ano_ini = comparativo_ano[comparativo_ano['ano'] == ano]
         # Adiciona um valor constante ao argumento `x` do método `bar` para ajustar a posição das barras
-        bars = ax8.bar(i + bar_width, df_ano['delta_areakm'], width=bar_width, 
-                       color=highlight_color if ano == 2023 else default_color)
+        bars = ax8.bar(df_ano_ini['mês'] + i*bar_width, df_ano_ini['focuses'], 
+                color=colors[ano], label=ano, width=bar_width)
 
         # Adiciona rótulos nas barras
         for bar in bars:
             yval = bar.get_height()
-            ax8.text(bar.get_x() + bar.get_width()/2, yval, int(yval), ha='center', va='bottom')
+            ax8.text(bar.get_x() + bar.get_width()/2, yval, int(yval), 
+                     ha='center', va='bottom', fontsize=10)
 
     # Legendas e títulos
-    ax8.set_xlabel('Ano')
-    ax8.set_ylabel('Área desmatada (km²)')
-    ax8.set_title('Desmatamento por ano')
+    #ax7.set_xlabel('Mês')
+    ax8.set_ylabel('Qtd Queimadas')
+    ax8.legend()
 
-    # Ajusta os ticks do eixo X para corresponderem ao meio das barras e define os rótulos dos ticks como os anos
-    ax8.set_xticks(np.arange(len(comparativo_ano['year'].unique())) + bar_width)
-    ax8.set_xticklabels(comparativo_ano['year'].unique())
+    # Define os ticks do eixo X para corresponderem ao meio das barras e define os rótulos dos ticks como os meses
+    ax8.set_xticks([1 + bar_width/2, 2 + bar_width/2, 3 + bar_width/2, 4 + bar_width/2, 5 + bar_width/2])
+    ax8.set_xticklabels(['Janeiro', 'Fevereiro', 'Março', 'Abril','Maio'])
 
     plt.tight_layout()
     st.pyplot(fig8)
 
-    st.markdown("A projeção indica que este primeiro ano de governo Lula irá trazer os números de incremento de desmatamento para patamares um pouco menores do que o primeiro ano do governo Bolsonaro. Agora vamos avaliar como seria a projeção caso o Bolsonaro tivesse sido eleito para este ano.")
-
-
-
-    #Projeão Bolsonaro
-
-    # #texto
-    #st.subheader("Modelo preditivo")
-
-    df_projecao_aux = df.copy()
-    df_projecao = df_projecao_aux[['municipality','geocode_ibge','state','governo']].drop_duplicates()
-    df_projecao = df_projecao.drop(columns=['governo'])
-
-    df_projecao['year'] = 2023
-    df_projecao['governo_Lula'] = 0
-    df_projecao['governo_Dilma'] = 0
-    df_projecao['governo_Temer'] = 0
-    df_projecao['governo_Bolsonaro'] = 1
-
-    df_projecao_dummies = pd.get_dummies(df_projecao, columns=['state', 'municipality'])
-
-    # mdl_et = load_model('./pycaret_mdl_rf')
-    # et_model = mdl_et.named_steps['trained_model']
-
-    ypred = predict_model(xgboost_model, data = df_projecao_dummies)
-    df_projecao_dummies['delta_areakm'] = ypred['prediction_label']
-
-
-    # Agrupa os dados por ano e soma os valores de 'areakm'
-    df_projecao_dummies = df_projecao_dummies.drop_duplicates()
-    df_projecao_agrupado = df_projecao_dummies.groupby('year')['delta_areakm'].sum().reset_index()
-    df_agrupado = df.groupby('year')['delta_areakm'].sum().reset_index()
-
-    # Concatena os dois DataFrames
-    comparativo_ano = pd.concat([df_agrupado, df_projecao_agrupado], ignore_index=True)
-    comparativo_ano = comparativo_ano[comparativo_ano['year'] != 2007]
-    # Cria o gráfico de barras
-    fig8, ax8 = plt.subplots(figsize=(10,6))
-
-    # Define a largura das barras
-    bar_width = 0.2
-
-    # Define uma cor padrão e uma cor destacada
-    default_color = 'blue'
-    highlight_color = 'red'
-
-    # Cria o gráfico para cada ano
-    for i, ano in enumerate(comparativo_ano['year'].unique()):
-        df_ano = comparativo_ano[comparativo_ano['year'] == ano]
-        # Adiciona um valor constante ao argumento `x` do método `bar` para ajustar a posição das barras
-        bars = ax8.bar(i + bar_width, df_ano['delta_areakm'], width=bar_width, 
-                       color=highlight_color if ano == 2023 else default_color)
-
-        # Adiciona rótulos nas barras
-        for bar in bars:
-            yval = bar.get_height()
-            ax8.text(bar.get_x() + bar.get_width()/2, yval, int(yval), ha='center', va='bottom')
-
-    # Legendas e títulos
-    ax8.set_xlabel('Ano')
-    ax8.set_ylabel('Área desmatada (km²)')
-    ax8.set_title('Desmatamento por ano')
-
-    # Ajusta os ticks do eixo X para corresponderem ao meio das barras e define os rótulos dos ticks como os anos
-    ax8.set_xticks(np.arange(len(comparativo_ano['year'].unique())) + bar_width)
-    ax8.set_xticklabels(comparativo_ano['year'].unique())
-
-    plt.tight_layout()
-    st.pyplot(fig8)
-
-    st.markdown("A principío esta projeção gera estranhamento já que o esperado seria um contínuo aumento do que vinhamos tendo nos governos anteriores de Bolsonaro, considerando a pouca importância que a pauta de desmatamento teve ao longo do governo e os aumentos sucessivos de incrementos a cada ano. Contudo, o modelo não considera apenas a variável de quem é o presidente mas também o comportamento histórico dos incrementos. E se notarmos ao longo dos anos não tivemos nenhum período com 4 anos de aumento consecutivo, portanto, o valor apresentado pode indicar apenas um leve recuo para a projeção se moldar de um modo que faça mais sentido a curva histórica. ")
-
+    st.markdown("Como podemos ver, a projeção indica que iniciaremos o mês de Maio com um pico menor que o ano passado mas maior do que 2020 e 2021. A grande diferença que notamos com estes dois anos é um possível deslocamento do início do pico das queimadas para Maio em 22 e 23, enquanto em 20 e 21, esse período ocorreu de forma mais tardia.")
 
 
 
