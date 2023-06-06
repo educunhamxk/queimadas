@@ -22,7 +22,7 @@ body {
     """, unsafe_allow_html=True)
 
 #título
-st.title("Como serão os números de desmatamento agora na gestão do Lula em 2023? E como seria se o Bolsonaro tivesse sido eleito")
+st.title("Como serão os números de desmatamento agora na gestão do Lula em 2023? E como seria se o Bolsonaro tivesse sido eleito?")
 
 #exibir imagem tema do lula
 st.image("desmatamento.png")
@@ -255,15 +255,14 @@ if st.button("Projetar"):
     
     
 
-    url = 'https://drive.google.com/file/d/1pqnJpGAkOlPucPYSMvT2rcdQPM1PId8-/view?usp=drive_link'
-    output = 'pycaret_mdl_rf.pkl'
-    gdown.download(url, output, quiet=False)
+    #url = 'https://drive.google.com/uc?export=download&id=1pqnJpGAkOlPucPYSMvT2rcdQPM1PId8-'
+    #output = 'pycaret_mdl_rf.pkl'
+    #gdown.download(url, output, quiet=False)
+    #mdl_et = load_model('pycaret_mdl_rf')
+    mdl_xgboost = load_model('./pycaret_mdl_xg')
+    xgboost_model = mdl_xgboost.named_steps['trained_model']
 
-    mdl_et = load_model('pycaret_mdl_rf.pkl')
-#     mdl_et = load_model('./pycaret_mdl_rf')
-    et_model = mdl_et.named_steps['trained_model']
-
-    ypred = predict_model(mdl_et, data = df_projecao_dummies)
+    ypred = predict_model( xgboost_model, data = df_projecao_dummies)
     df_projecao_dummies['delta_areakm'] = ypred['prediction_label']
 
 
@@ -333,7 +332,7 @@ if st.button("Projetar"):
     # mdl_et = load_model('./pycaret_mdl_rf')
     # et_model = mdl_et.named_steps['trained_model']
 
-    ypred = predict_model(mdl_et, data = df_projecao_dummies)
+    ypred = predict_model(xgboost_model, data = df_projecao_dummies)
     df_projecao_dummies['delta_areakm'] = ypred['prediction_label']
 
 
