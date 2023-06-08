@@ -276,7 +276,7 @@ df_projecao = pd.read_csv("dados_queimadas_previsao.csv")
 if st.button("Projetar"):
 
     #carregamento / instanciamento do modelo pkl
-    mdl_lgbm = load_model('./pycaret_mdl_xg')
+    mdl_lgbm = load_model('./pycaret_mdl_et')
 
     #Acessando o modelo LGBMClassifier
     lgbm_model = mdl_lgbm.named_steps['trained_model']
